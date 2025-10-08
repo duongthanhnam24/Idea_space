@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SVN-Rosellinda Alyamore';
+  src: url('./assests/fonts/SVN-Rosellinda\ Alyamore.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line-border::before {
+    background-color: rgba(0, 0, 0, .1);
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 40%;
+    height: 1px;
+    margin-top: 2px;
+}
+
+.line-border::after {
+    background-color: rgba(0, 0, 0, .1);
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 40%;
+    height: 1px;
+    margin-top: 2px;
+}
