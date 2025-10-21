@@ -23,7 +23,7 @@ export function SlideIdea({data}) {
                     <SwiperSlide key={item.name}>
                         <div >
                             <div className=' w-[360px] h-[200px] overflow-hidden'>
-                                <img src={item.image} className='transition-all object-cover w-full h-full hover:scale-110 hover:brightness-50 hover:cursor-pointer' alt='tu-hao-di-san' />
+                                <img src={item.image} className=' object-cover w-full h-full transition-all  hover:scale-110 hover:brightness-50 hover:cursor-pointer' alt='tu-hao-di-san' />
                             </div>
                             <h3 className='my-3 font-medium hover:text-[#0f50a8] hover:cursor-pointer'>{item.name}</h3>
                             <p className='text-gray-500'>

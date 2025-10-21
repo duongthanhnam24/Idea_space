@@ -1,14 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "tailwindcss-animated";
 @font-face {
   font-family: 'SVN-Rosellinda Alyamore';
   src: url('./assests/fonts/SVN-Rosellinda\ Alyamore.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-
+strong {
+   
+    font-weight: normal;
+}
 * {
     margin: 0;
     padding: 0;
