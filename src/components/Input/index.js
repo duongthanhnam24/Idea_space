@@ -1,5 +1,5 @@
-export default function Input({ placeholder, name , type, value }) {
+export default function Input({ placeholder, name , type, value, className }) {
     return (
-        <input className='w-[372px] h-[42px] p-2' placeholder={placeholder} name={name} type={type} value={value} required/>
+        <input className={className} placeholder={placeholder} name={name} type={type} value={value} required/>
     )
 }

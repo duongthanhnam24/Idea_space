@@ -1,7 +1,29 @@
+import { useRef } from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaPhoneVolume } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
+import emailjs from '@emailjs/browser';
+import Input from '../../components/Input';
+import { toast } from 'react-toastify';
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm('service_ovyykmr', 'template_2fdg1sb', form.current, {
+                publicKey: 'a3brA3Gu9OQvqs0uP',
+            })
+            .then(
+                () => {
+                    toast("✅ Gửi Thành Công !")
+                },
+                (error) => {
+                    toast('Hiện Bạn Chưa Gửi Được Vui Lòng Thử Lại Hoặc Liên Hệ 0389944688');
+                },
+            );
+    };
     return (
         <>
             <div className="w-full h-[450px] rounded-lg overflow-hidden">
@@ -18,16 +40,34 @@ function Contact() {
 
             </div>
             <div className="mx-[390px] mt-[40px]">
-                <div className="flex justify-between">
-                    <div>
-                        aaaa
+                <div className="flex justify-between ">
+                    <div className='space-y-4 w-[50%]'>
+                        <h2 className='text-[24px] font-medium pt-[38px] border-b-2 border-[#0f50a8] w-fit'>
+                            Gửi Yêu Cầu
+                        </h2>
+                        <p>
+                            Chúng tôi ở đây vì doanh nghiệp của bạn, nếu còn thắc mắc về sản phẩm dịch vụ của chúng tôi hãy liên hệ để được tư vấn hoàn toàn miễn phí
+                        </p>
+                        <div>
+                            <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-5'>
+                                <div className='flex justify-between'>
+                                    <Input name={"name"} type={"text"} placeholder={"Tên của bạn"} className={`w-[250px] h-[42px] p-2 border-b-4 border-gray-100`}/>
+                                    <Input type="email" name="email" placeholder={"Email"} className={`w-[250px] h-[42px] p-2 border-b-4 border-gray-100`}/>
+                                    
+                                </div>
+                                <Input name={"phone"} type={"number"} placeholder={"Số điện thoại"} className={`w-full h-[42px] p-2 border-b-4 border-gray-100`}/>
+                                 <textarea className='w-full h-[42px] p-2 border-b-4 border-gray-100' name="message" placeholder='Để lại lời nhắn' />
+                                <button type='submit' className='w-full bg-[#0f50a8] text-white hover:brightness-75 py-2'>Gửi</button>
+                            </form>
+
+                        </div>
                     </div>
-                    <div className="p-[38px] shadow-md rounded-md border-t-8 border-[#0f50a8] space-y-4">
+                    <div className="p-[38px] w-[40%] shadow-md rounded-md border-t-8 border-[#0f50a8] space-y-4">
                         <h2 className="text-[24px] font-medium ">Thông Tin Liên Hệ</h2>
-                        <p className='flex items-center'><span className='pr-4'><FaMapMarkerAlt/></span> Số 41 Đường Đông Hội, Đông Anh, Hà Nội</p>
-                        <p className='flex items-center'><span className='pr-4'><FaPhoneVolume/></span> Ông Đặng Xuân Thơ  -  Giám đốc Công ty: 0389944688</p>
-                        <p className='flex items-center'><span className='pr-4'><FaPhoneVolume/></span>Ông Đào Văn Độ - Phụ trách Tài chính – Kinh doanh: 098 3763405</p>
-                        <p className='flex items-center'><span className='pr-4'><MdEmail/></span>ytuongkg.media@gmail.com</p>
+                        <p className='flex items-center'><span className='pr-4'><FaMapMarkerAlt /></span> Số 41 Đường Đông Hội, Đông Anh, Hà Nội</p>
+                        <p className='flex items-center'><span className='pr-4'><FaPhoneVolume /></span> Ông Đặng Xuân Thơ  -  Giám đốc Công ty: 0389944688</p>
+                        <p className='flex items-center'><span className='pr-4'><FaPhoneVolume /></span>Ông Đào Văn Độ - Phụ trách Tài chính – Kinh doanh: 098 3763405</p>
+                        <p className='flex items-center'><span className='pr-4'><MdEmail /></span>ytuongkg.media@gmail.com</p>
                     </div>
                 </div>
             </div>

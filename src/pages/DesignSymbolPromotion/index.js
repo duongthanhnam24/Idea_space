@@ -7,6 +7,9 @@ import bienhieu6 from "../../assests/images/Bien_hieu_cua_hang/53664113_26262460
 import bienhieu7 from "../../assests/images/Bien_hieu_cua_hang/23415505_1950931018256311_8758876291771051782_o.jpg"
 import bienhieu8 from "../../assests/images/Bien_hieu_cua_hang/23456300_1950930444923035_3158112852771448506_o.jpg"
 import bienhieu9 from "../../assests/images/Bien_hieu_cua_hang/23334335_1950929791589767_1170767056263466183_o.jpg"
+import { HiHome } from "react-icons/hi"
+import { Link } from "react-router-dom"
+import { RiArrowRightSLine } from "react-icons/ri"
 
 
 
@@ -18,7 +21,20 @@ import bienhieu9 from "../../assests/images/Bien_hieu_cua_hang/23334335_19509297
 
 function DesignSymbolPromotion() {
     return (
-        <div className="mx-[287px]">
+        <>
+        <div className="flex items-center space-x-2 mx-[390px] !h-[40px] my-6 ">
+                <HiHome />
+                <Link to='/'>
+                    Trang Chủ
+                </Link>
+                <RiArrowRightSLine />
+                <p >
+                    Thiết Kế & Thi Công Biểu Tượng Kiến Trúc, Cổng Chào, Biển Hiệu Quảng Cáo
+                </p>
+
+            </div>
+
+        <div className="mx-[390px]">
             <h1 className="text-[22px] font-medium uppercase">THIẾT KẾ & THI CÔNG BIỂU TƯỢNG KIẾN TRÚC, CỔNG CHÀO, BIỂN HIỆU QUẢNG CÁO</h1>
             <h2 className='mt-[40px] text-xl'>1. Giới thiệu Về <strong>Thiết Kế & Thi Công Biểu Tượng Kiến Trúc, Cổng Chào, Biển Hiệu Quảng Cáo</strong></h2>
             <p className='text-lg w-[90%] text-justify mt-[10px]'>
@@ -109,6 +125,7 @@ function DesignSymbolPromotion() {
 
 
         </div>
+        </>
     )
 }
 

@@ -6,6 +6,9 @@ import noithat5 from '../../assests/images/thi_cong_noi_that_gian_hang/53625559_
 import noithat6 from '../../assests/images/thi_cong_noi_that_gian_hang/53814314_2626246090724797_4023653533306847232_n.jpg'
 import noithat7 from '../../assests/images/thi_cong_noi_that_gian_hang/54207598_2626246444058095_6922673032662089728_n.jpg'
 import noithat8 from '../../assests/images/thi_cong_noi_that_gian_hang/53930261_2626245690724837_6198135594837606400_n.jpg'
+import { HiHome } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
+import { RiArrowRightSLine } from 'react-icons/ri'
 
 
 
@@ -16,7 +19,19 @@ import noithat8 from '../../assests/images/thi_cong_noi_that_gian_hang/53930261_
 
 function Designinterior() {
     return (
-        <div className="mx-[287px]">
+       <>
+       <div className="flex items-center space-x-2 mx-[390px] !h-[40px] my-6 ">
+                <HiHome />
+                <Link to='/'>
+                    Trang Chủ
+                </Link>
+                <RiArrowRightSLine />
+                <p >
+                    Thiết Kế & Thi Công Nội Thất
+                </p>
+
+            </div>
+        <div className="mx-[390px]">
             <h1 className="text-[22px] font-medium uppercase">THIẾT KẾ NỘI THẤT – KIẾN TẠO KHÔNG GIAN ĐẲNG CẤP VÀ TIỆN NGHI</h1>
 
             <h2 className='mt-[40px] text-xl'>1. Giới Thiệu</h2>
@@ -109,6 +124,7 @@ function Designinterior() {
 
 
         </div>
+       </>
     )
 }
 

@@ -6,6 +6,9 @@ import kimbang2 from '../../assests/images/products/kimbang5.jpg'
 import kimbang3 from '../../assests/images/products/kimbang6.jpg'
 import yenlac from '../../assests/images/products/yenlacled2.jpg'
 import ledduongpho from '../../assests/images/products/ledduongpho3.jpg'
+import { HiHome } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
+import { RiArrowRightSLine } from 'react-icons/ri'
 
 
 
@@ -13,7 +16,19 @@ import ledduongpho from '../../assests/images/products/ledduongpho3.jpg'
 
 function DesignBuilding() {
     return (
-        <div className="mx-[287px]">
+        <>
+         <div className="flex items-center space-x-2 mx-[390px] !h-[40px] my-6 ">
+                <HiHome />
+                <Link to='/'>
+                    Trang Chủ
+                </Link>
+                <RiArrowRightSLine />
+                <p >
+                    Thiết Kế & Trang Trí Ánh Sáng Của Đường Phố Và Tòa Nhà
+                </p>
+
+            </div>
+            <div className="mx-[390px]">
             <h1 className="text-[22px] font-medium">THIẾT KẾ & TRANG TRÍ ÁNH SÁNG CỦA ĐƯỜNG PHỐ VÀ TÒA NHÀ</h1>
             <h2 className='mt-[40px] text-xl'>1. Giới thiệu về <strong>Thiết Kế và Trang Trí Ánh Sáng Của Đường Phố Và Tòa Nhà </strong></h2>
             <p className="mt-[10px]  text-lg w-[90%] text-justify">
@@ -83,6 +98,8 @@ function DesignBuilding() {
 
             <img src={ledduongpho} alt='thiet ke xe dieu hanh mo hinh' className='mt-[40px] w-[70%]' />
         </div>
+        </>
+        
     )
 }
 

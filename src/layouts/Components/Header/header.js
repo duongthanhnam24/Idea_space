@@ -19,9 +19,9 @@ export function Header() {
                 </div>
             </div>
             {/* header */}
-            <div className='h-[97px] flex justify-between px-[390px] items-center '>
+            <div className='h-[97px] flex justify-between px-[390px] items-center shadow-md'>
                 <div className='w-1/3'>
-                    <img src={logo} className='w-[70px]' />
+                    <Link to='/'><img src={logo} className='w-[70px]' /></Link>
                 </div>
                 <div className='flex justify-between w-2/3'>
                     <Link className='text-[16px] font-medium hover:text-[#0f50a8]' to='/gioi-thieu'>Giới Thiệu</Link>

@@ -16,7 +16,7 @@ export const router = [
     },
     {
         path: '/lien-he', component: Contact
-    },
+    }
     ,
     {
         path: '/gioi-thieu', component: Introduce

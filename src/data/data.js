@@ -102,7 +102,7 @@ export const data = [
                 PDJ6,
 
             ],
-            video: ''
+            video: 'https://www.youtube.com/watch?v=J9NQFACZYEU&list=RDJ9NQFACZYEU&start_radio=1'
         },
         slug: '/du-an/noi-that-pdj'
     },

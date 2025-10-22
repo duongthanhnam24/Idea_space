@@ -66,7 +66,7 @@ function Introduce() {
                     </p>
                     <div className="flex justify-between">
                         <div className="flex flex-col items-center space-y-3">
-                            <div class="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
+                            <div className="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
                                 <GiHandOk size={60} color="white" />
                             </div>
                             <div className="space-y-2">
@@ -80,7 +80,7 @@ function Introduce() {
                         </div>
 
                         <div className="flex flex-col items-center space-y-3">
-                            <div class="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
+                            <div className="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
                                 <RiTeamLine size={60} color="white" />
                             </div>
                             <div className="space-y-2">
@@ -95,7 +95,7 @@ function Introduce() {
 
 
                         <div className="flex flex-col items-center space-y-3">
-                            <div class="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
+                            <div className="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
                                 <MdHighQuality size={60} color="white" />
                             </div>
                             <div className="space-y-2">
@@ -110,7 +110,7 @@ function Introduce() {
 
 
                         <div className="flex flex-col items-center space-y-3">
-                            <div class="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
+                            <div className="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
                                 <FcIdea size={60} color="white" />
                             </div>
                             <div className="space-y-2">
@@ -131,19 +131,19 @@ function Introduce() {
                     </p>
 
 
-                    <div class="grid grid-flow-col grid-rows-2 gap-28 mt-[50px]">
-                        <div class="row-span-2 ">
+                    <div className="grid grid-flow-col grid-rows-2 gap-28 mt-[50px]">
+                        <div className="row-span-2 ">
                             <div className="w-[530px] flex items-center justify-center">
                                 <EffectCard />
                             </div>
                         </div>
-                        <div class="col-span-2 row-span-1">
+                        <div className="col-span-2 row-span-1">
                             <div className="flex justify-between">
                                 <img src={may1} className="w-[310px] h-[218px]" />
                                 <img src={may2} className="w-[310px] h-[218px]" />
                             </div>
                         </div>
-                        <div class="col-span-2 row-span-1">
+                        <div className="col-span-2 row-span-1">
                             <div className="flex justify-between">
                                 <img src={may3} className="w-[310px] h-[218px]" />
                                 <img src={may4} className="w-[310px] h-[218px]" />

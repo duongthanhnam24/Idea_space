@@ -1,3 +1,4 @@
+import { HiHome } from 'react-icons/hi'
 import xedieuhanh1 from '../../assests/images/products/xedieuhanh1.png'
 import xedieuhanh2 from '../../assests/images/products/xedieuhanh2.png'
 import xedieuhanh3 from '../../assests/images/products/xedieuhanh3.png'
@@ -6,12 +7,27 @@ import xedieuhanh5 from '../../assests/images/products/xedieuhanh5.png'
 import xedieuhanh6 from '../../assests/images/products/xedieuhanh6.png'
 import xedieuhanh7 from '../../assests/images/products/xedieuhanh7.png'
 import xedieuhanh8 from '../../assests/images/products/xedieuhanh8.png'
+import { Link } from 'react-router-dom'
+import { RiArrowRightSLine } from 'react-icons/ri'
 
 
 
 function DesignCar() {
     return (
-        <div className="mx-[287px]">
+        <>
+        <div className="flex items-center space-x-2 mx-[390px] !h-[40px] my-6 ">
+                <HiHome />
+                <Link to='/'>
+                    Trang Chủ
+                </Link>
+                <RiArrowRightSLine />
+                <p >
+                    Thiết Kế & Sản Xuất Xe Diễu Hành Mô Hình
+                </p>
+
+            </div>
+
+         <div className="mx-[390px]">
             <h1 className="text-[22px] font-medium">THIẾT KẾ & SẢN XUẤT XE DIỄU HÀNH MÔ HÌNH</h1>
             <h2 className='mt-[40px] text-xl'>1. Giới thiệu về <strong>XE DIỄU HÀNH MÔ HÌNH</strong></h2>
             <p className="mt-[10px]  text-lg w-[90%] text-justify">
@@ -87,6 +103,8 @@ function DesignCar() {
 
            
         </div>
+        </>
+       
     )
 }
 

@@ -277,7 +277,7 @@ function Home() {
                     <div className="mt-[24px] flex justify-around">
                         <div className="w-[446px] space-y-4">
                             <div className="group">
-                                <div class="  text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
+                                <div className="  text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
                                     <HiOutlineUserAdd size={80} className="group-hover:text-[#0f50a8] transition-all" />
                                 </div>
                             </div>
@@ -290,7 +290,7 @@ function Home() {
 
                         <div className="w-[446px] space-y-4">
                             <div className="group">
-                                <div class=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
+                                <div className=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
                                     <FaFileAlt size={80} className="group-hover:text-[#0f50a8] transition-all " />
                                 </div>
                             </div>
@@ -304,7 +304,7 @@ function Home() {
 
                         <div className="w-[446px] space-y-4">
                             <div className="group">
-                                <div class=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
+                                <div className=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
                                     <FaMarker size={80} className="group-hover:text-[#0f50a8] transition-all" />
                                 </div>
                             </div>
@@ -318,7 +318,7 @@ function Home() {
 
                         <div className="w-[446px] space-y-4">
                             <div className="group">
-                                <div class=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
+                                <div className=" text-center border-[5px] border-[#0f50a8] group-hover:border-black p-[26px] rounded-full w-[145px] h-[145px] mx-auto transition-all duration-300 ease-in-out">
                                     <LiaHandshake size={80} className="group-hover:text-[#0f50a8] transition-all" />
                                 </div>
                             </div>

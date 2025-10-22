@@ -2,7 +2,6 @@ import vinataba from '../../assests/images/products/vinataba.png'
 import bornpink from '../../assests/images/products/bornpink2.png'
 import travelEvent from '../../assests/images/products/TravelEven1.png'
 import Event1 from '../../assests/images/products/Event1.png'
-import Event2 from '../../assests/images/products/Event2.png'
 
 import Event3 from '../../assests/images/products/Event3.png'
 import esport1 from '../../assests/images/products/esport.png'
@@ -10,6 +9,9 @@ import esport2 from '../../assests/images/products/esport2.png'
 import esport3 from '../../assests/images/products/esport3.png'
 
 import sankhauA80 from '../../assests/images/gian_hang_trien_lam/z6944765441032_cd1b16dfe5db7334b889eabe32f9742c.jpg'
+import { HiHome } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
+import { RiArrowRightSLine } from 'react-icons/ri'
 
 
 
@@ -17,7 +19,20 @@ import sankhauA80 from '../../assests/images/gian_hang_trien_lam/z6944765441032_
 
 function DesignState() {
     return (
-        <div className="mx-[287px]">
+        <>
+        <div className="flex items-center space-x-2 mx-[390px] !h-[40px] my-6 ">
+                <HiHome />
+                <Link to='/'>
+                    Trang Chủ
+                </Link>
+                <RiArrowRightSLine />
+                <p >
+                    Thiết Kế & Thi Công Gian Hàng – Sân Khấu Sự Kiện
+                </p>
+
+            </div>
+        
+        <div className="mx-[390px]">
             <h1 className="text-[22px] font-medium uppercase">THIẾT KẾ & THI CÔNG GIAN HÀNG – SÂN KHẤU SỰ KIỆN</h1>
             <p className='mt-[10px]  text-base w-[90%] text-justify'>Trong mỗi chương trình, hội chợ hay sự kiện, gian hàng và sân khấu không chỉ là nơi trưng bày sản phẩm hay diễn ra hoạt động, mà còn là bộ mặt thể hiện hình ảnh thương hiệu của doanh nghiệp. Một thiết kế ấn tượng, thi công chuyên nghiệp sẽ giúp thu hút ánh nhìn, tạo dấu ấn mạnh mẽ trong lòng khách hàng và đối tác.</p>
             <h2 className='mt-[40px] text-xl'>1. Vai trò của <strong>thiết kế gian hàng – sân khấu sự kiện </strong></h2>
@@ -75,6 +90,7 @@ function DesignState() {
 
 
         </div>
+        </>
     )
 }
 
