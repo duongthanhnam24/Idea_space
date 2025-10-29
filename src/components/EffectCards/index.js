@@ -22,22 +22,23 @@ export function EffectCard() {
                 clickable: false,
             }}
             autoplay={{
-                delay: 3000,
+                delay: 1000,
                 disableOnInteraction: false,
 
             }}
             modules={[EffectCards]}
             effect={'cards'}
             grabCursor={true}
+
         >
-            <SwiperSlide><img src={xuongmay1} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay2} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay3} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay4} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay5} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay6} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay7} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay8} className="w-[500px] h-auto object-cover" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay1} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay2} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay3} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay4} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay5} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay6} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay7} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay8} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
 
         </SlideLayout>
     )

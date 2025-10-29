@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,10 +9,15 @@
   font-weight: normal;
   font-style: normal;
 }
+@theme {
+  --breakpoint-2xl: 1770px;
+}
 strong {
    
     font-weight: normal;
 }
+
+
 * {
     margin: 0;
     padding: 0;

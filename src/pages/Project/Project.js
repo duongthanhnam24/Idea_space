@@ -48,7 +48,7 @@ export default function Project() {
   return (
     <>
       {!!item ? (
-        <div className="max-w-full px-4 sm:px-6 md:px-10 lg:mx-[200px] xl:mx-[390px] space-y-10">
+        <div className="max-w-full px-4 sm:px-6 md:px-10 lg:mx-[200px] xl:mx-[340px] space-y-10">
           {/* Breadcrumb */}
           <div className="flex flex-wrap items-center space-x-2 !h-[40px] my-6 text-sm sm:text-base">
             <HiHome />
@@ -66,7 +66,7 @@ export default function Project() {
 
           {/* Video */}
           {!!item?.media?.video && (
-            <div className="flex justify-center w-full video-container">
+            <div className="flex  w-full video-container">
               <iframe
                 className="w-full sm:w-[560px] h-[220px] sm:h-[315px] rounded-md"
                 src={embedUrl}
@@ -85,7 +85,7 @@ export default function Project() {
                   src={img}
                   className="w-full sm:w-[600px] md:w-[700px] lg:w-[800px] object-cover"
                 />
-                <p className="mt-2 text-sm text-center sm:text-base">
+                <p className="mt-2 text-sm  sm:text-base">
                   {item.name}
                 </p>
               </div>

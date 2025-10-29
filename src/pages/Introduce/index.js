@@ -38,16 +38,16 @@ import SlideLayout from "../../components/SlideLayout";
 function Introduce() {
     return (
         <div>
-            <div className="relative text-white">
+            <div className="relative text-white w-full">
                 <img src={imgae} className="w-full object-cover h-[400px] brightness-50" />
-                <div className="absolute bottom-12 mx-[287px] space-y-2">
+                <div className="max-sm:ml-[40px] max-sm:mr-0 max-md:mx-10  absolute bottom-12 mx-[287px] space-y-2 max-xl:mx-10 max-2xl:mx-[100px] max-3xl:mx-[100px]">
                     <h2 className="text-4xl font-bold border-b-2 border-[#0f50a8] ">Giới Thiệu</h2>
                     <div className="flex space-x-3 items-center"><Link to='/'>Trang Chủ</Link><MdDoubleArrow /> <Link to='/gioi-thieu'>Giới Thiệu</Link> </div>
                 </div>
             </div>
-            <div className="mx-[287px] mt-[60px]">
-                <div className="flex justify-between">
-                    <div className="text-center w-[700px] space-y-3">
+            <div className=" mx-[287px] mt-[60px] max-sm:ml-[40px] max-sm:mr-[40px] max-md:mx-10 max-lg:mx-10 max-xl:mx-10 max-2xl:mx-[100px] max-3xl:mx-[100px]">
+                <div className="flex justify-between max-sm:flex-col  max-md:flex-col max-md:space-y-6 max-lg:flex-col max-lg:space-y-6 max-xl:space-x-6">
+                    <div className="text-center w-[700px] space-y-3 max-sm:w-full max-md:w-full max-lg:w-full max-2xl:w-[500px]">
                         <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8]">
                             Thư Giới Thiệu
                         </p>
@@ -58,13 +58,15 @@ function Introduce() {
                             Không Gian Ý Tưởng Có Đội Ngũ Họa Sĩ Thiết Kế, Kiến Trúc Sư, Kỹ Sư, Cán Bộ Kỹ Thuật Và Đội Ngũ Công Nhân Lành Nghề Với Nhiều Năm Kinh Nghiệm Trong Lĩnh Vực Thiết Kế - Sản Xuất - Thi Công Quảng Cáo, Kiến Trúc, Nội Thất. Chúng Tôi Luôn Cam Kết Đảm Bảo Tiến Độ, Đạt Chất Lượng - Kỹ Thuật - Mỹ Thuật Tốt Nên Luôn Được Các Chủ Đầu Tư Và Các Đối Tác Đánh Giá Cao Và Cộng Tác Lâu Dài Trong Suốt Thời Gian Qua. Không Gian Ý Tưởng Đã Thi Công Nhiều Công Trình Và Hợp Tác Với Những Tập Đoàn, Công Ty Lớn Như VNPT, MƯỜNG THANH, AEON, GAMUDA LAND, EUROWINDOW... Được Biết Quý Khách Có Nhu Cầu Thiết Kế Thi Công Hạng Mục Công Chào, Biển Hiệu Quảng Cáo... Với Năng Lực Hiện Có, Công Ty Không Gian Ý Tưởng Xin Đăng Ký Tham Gia: Tư Vấn Thiết Kế Và Thi Công Cho Quý Công Ty. Với Phương Châm: “Lấy Uy Tín Làm Vốn” Công Ty Chúng Tôi Cam Kết Sẽ Luôn Làm Hài Lòng Khách Hàng Và Thực Hiện Nghiêm Túc Các Điều Khoản Trong Hợp Đồng, Hoàn Thành Công Việc Đúng Tiến Độ Với Chất Lượng Cao.
                         </p>
                     </div>
-                    <img src={company} className="w-[500px] h-[600px]" />
+                   <div className="flex justify-center">
+                     <img src={company} className="w-[500px] h-[600px] max-sm:w-full max-sm:mt-[24px] max-sm:!ml-0 max-sm:h-[400px] max-xl:w-[400px]  max-xl:h-[500px] " />
+                   </div>
                 </div>
                 <div className="mt-[96px]">
                     <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8] text-center">
                         Gía Trị Cốt Lõi
                     </p>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between max-sm:flex-col max-sm:space-y-12 max-md:flex-col max-md:space-y-12 max-lg:flex-col max-lg:space-y-12">
                         <div className="flex flex-col items-center space-y-3">
                             <div className="w-[90px] h-[90px] bg-[#0f50a8] text-center leading-[90px] rounded-full flex items-center justify-center ">
                                 <GiHandOk size={60} color="white" />
@@ -131,22 +133,22 @@ function Introduce() {
                     </p>
 
 
-                    <div className="grid grid-flow-col grid-rows-2 gap-28 mt-[50px]">
-                        <div className="row-span-2 ">
-                            <div className="w-[530px] flex items-center justify-center">
+                    <div className="grid grid-flow-col grid-rows-2 gap-28 mt-[50px] max-sm:flex max-sm:flex-col max-sm:space-y-2 max-md:flex max-md:flex-col max-md:space-y-2 max-lg:flex max-lg:flex-col max-lg:space-y-2 max-xl:gap-11">
+                        <div className="row-span-2 max-sm:flex max-sm:justify-center    max-md:flex max-md:justify-center max-lg:flex max-lg:justify-center max-xl:flex max-xl:justify-center">
+                            <div className="w-[530px] flex items-center justify-center max-sm:w-[350px] max-sm:items-center max-xl:w-[400px]    ">
                                 <EffectCard />
                             </div>
                         </div>
                         <div className="col-span-2 row-span-1">
-                            <div className="flex justify-between">
-                                <img src={may1} className="w-[310px] h-[218px]" />
-                                <img src={may2} className="w-[310px] h-[218px]" />
+                            <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6  max-lg:flex-col max-lg:items-center max-lg:space-y-6">
+                                <img src={may1} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may2} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
-                        </div>
+                        </div> 
                         <div className="col-span-2 row-span-1">
-                            <div className="flex justify-between">
-                                <img src={may3} className="w-[310px] h-[218px]" />
-                                <img src={may4} className="w-[310px] h-[218px]" />
+                            <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6 max-lg:flex-col max-lg:items-center max-lg:space-y-6">
+                                <img src={may3} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may4} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
                         </div>
                     </div>
@@ -154,23 +156,22 @@ function Introduce() {
                 </div>
 
             </div>
-            <div className="mt-[96px]">
+            {/* <div className="mt-[96px]">
                 <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8] text-center">
                     Công Trình Tiêu Biểu
                 </p>
                 <section className="relative w-full flex bg-[#0f50a8] mt-[50px]">
-                    {/* Cột trái (màu xanh + tiêu đề) */}
+                    
                     <div className="w-[40%] bg-[#0f50a8] flex flex-col justify-center items-center text-white py-16 relative z-10">
 
                     </div>
 
-                    {/* Cột phải (phần hình ảnh & nội dung) */}
+                    
                     <div className="w-[60%] bg-white pl-1 pr-[17.5rem] py-12 relative">
 
 
-                        {/* Lưới hình ảnh */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {/* Ô ảnh lớn đè sang phần xanh */}
+                            
                             <div className="md:col-span-2 lg:col-span-1 row-span-2 bg-white rounded-xl shadow overflow-hidden relative -ml-[32rem] z-20">
                                 <div className="relative ">
                                     <img
@@ -192,7 +193,7 @@ function Introduce() {
                                 </div>
                             </div>
 
-                            {/* Các ô nhỏ */}
+                           
                             {[
                                 sungroup,
                                 sungroup,
@@ -218,11 +219,13 @@ function Introduce() {
                     </div>
                 </section>
 
+            </div> */}
+            <div className="mt-[96px]">
+                <ContactUs />
             </div>
-            <ContactUs />
-            <div className="mt-[96px] mx-[287px]">
-                 <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8] text-center mb-[50px]">
-                   Khách Hàng Đối Tác
+            <div className="mt-[96px] mx-[287px] max-sm:mx-0 max-md:mx-0 max-lg:mx-10 max-xl:mx-10 max-2xl:mx-[100px]">
+                <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8] text-center mb-[50px]">
+                    Khách Hàng Đối Tác
                 </p>
                 <SlideLayout loop={true} slidesPerView={4} centeredSlides={true}
 
@@ -231,25 +234,46 @@ function Introduce() {
                         disableOnInteraction: false,
 
                     }}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 2,
+                            
+                            
+                        },
+                        640: {
+                            slidesPerView: 2,
+                           
+                        },
+                        768: {
+                            slidesPerView: 4,
+                            centeredSlides: true,
+                            
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            
+                        },
+                        1280: {
+                            slidesPerView: 4,
+                            
+                        },
+                    }}
                     modules={[Autoplay, Pagination]}>
 
-                    <SwiperSlide >
-                        <img src={aeon} className=' object-contain  w-[100px] h-[100px]' />
-
-                    </SwiperSlide>
-                    <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpay} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={muongthanh} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpay} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                     <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                     <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px]' /></SwiperSlide>
+                    <SwiperSlide ><img src={aeon} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpay} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={muongthanh} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpay} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={eurowindow} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={gamuda} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><img src={vnpt} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
                 </SlideLayout>
             </div>
         </div>

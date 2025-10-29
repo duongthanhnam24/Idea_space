@@ -35,7 +35,7 @@ function DesignLogo() {
         <img
           src={thietketlogo}
           alt="Thiet ke logo"
-          className="mt-[30px] sm:mt-[40px] w-full rounded-md"
+          className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
         <h2 className="mt-[30px] sm:mt-[40px] text-lg sm:text-xl">

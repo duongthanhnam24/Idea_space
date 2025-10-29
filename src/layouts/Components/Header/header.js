@@ -57,7 +57,7 @@ export function Header() {
             menuOpen
               ? "flex flex-col absolute top-[80px] left-0 w-full bg-white border-t shadow-md z-50"
               : "hidden"
-          } md:flex md:flex-row md:static md:w-2/3 md:justify-end items-center`}
+          } md:flex md:flex-row md:static md:w-2/3 md:justify-between items-center`}
         >
           <Link
             to="/gioi-thieu"
@@ -69,7 +69,7 @@ export function Header() {
           <Dropdown
             label="Dịch Vụ"
             inline
-            className="!bg-white text-center !w-full md:!w-auto"
+            className="!bg-white text-center !w-full md:!w-auto !text-[16px] !font-medium hover:text-[#0f50a8]"
           >
             <DropdownItem
               as={Link}

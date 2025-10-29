@@ -13,14 +13,14 @@ import { RiArrowRightSLine } from "react-icons/ri";
 function DesignInterior() {
   return (
     <>
-      <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4 lg:px-[390px] !h-[40px] my-6 text-sm sm:text-base">
+      <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link to="/">Trang Chủ</Link>
         <RiArrowRightSLine />
         <p>Thiết Kế & Thi Công Nội Thất</p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4 lg:px-[390px]">
+      <div className="max-w-[1200px] mx-auto px-4 ">
         <h1 className="text-xl font-medium uppercase sm:text-2xl">
           THIẾT KẾ NỘI THẤT – KIẾN TẠO KHÔNG GIAN ĐẲNG CẤP VÀ TIỆN NGHI
         </h1>

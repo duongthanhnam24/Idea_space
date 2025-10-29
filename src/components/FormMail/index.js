@@ -33,7 +33,7 @@ export const ContactUs = () => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${background})`,
       }}
     >
-      <div className="flex flex-col items-center justify-center px-2 py-16 mx-auto max-w-7xl lg:flex-row">
+      <div className="flex flex-col items-center justify-center px-2 py-16 mx-auto max-w-7xl lg:flex-row max-xl:mx-10">
         <div className="space-y-4 text-center lg:text-left lg:w-fit">
           <p className="text-[22px] font-medium border-b-2 border-[#0f50a8] w-fit mx-auto lg:mx-0">
             YÊU CẦU TƯ VẤN

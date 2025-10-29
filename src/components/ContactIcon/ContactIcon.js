@@ -33,7 +33,7 @@ export default function FloatingContactButtons() {
     <>
 
 
-      <div className="fixed bottom-6 left-4  w-[60px] h-[60px] overflow-hidden flex items-center justify-center border-8 border-[#0f50a8] rounded-full ">
+      <div className="fixed bottom-6 left-4  w-[60px] h-[60px] overflow-hidden flex items-center justify-center border-8 border-[#0f50a8] rounded-full z-50">
 
         <div
           className="  flex justify-center items-center "
