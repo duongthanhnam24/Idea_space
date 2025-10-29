@@ -13,7 +13,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 function DesignBuilding() {
   return (
     <>
-      <div className="flex flex-wrap items-center gap-2 mx-4 md:mx-20 lg:mx-[390px] my-6 text-sm md:text-base">
+      <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link to="/" className="hover:text-blue-600">
           Trang Chủ
@@ -24,7 +24,7 @@ function DesignBuilding() {
         </p>
       </div>
 
-      <div className="mx-4 md:mx-20 lg:mx-[390px] space-y-8">
+      <div className="max-w-[1200px] mx-auto px-4 space-y-8">
         <h1 className="text-xl font-semibold md:text-2xl">
           THIẾT KẾ & TRANG TRÍ ÁNH SÁNG CỦA ĐƯỜNG PHỐ VÀ TÒA NHÀ
         </h1>

@@ -5,14 +5,14 @@ import { RiArrowRightSLine } from "react-icons/ri";
 function DesignLogo() {
   return (
     <>
-      <div className="flex items-center space-x-2 mx-4 sm:mx-10 md:mx-[100px] lg:mx-[200px] xl:mx-[390px] !h-[40px] my-6 text-sm sm:text-base">
+      <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link to="/">Trang Chủ</Link>
         <RiArrowRightSLine />
         <p>Thiết Kế Logo</p>
       </div>
 
-      <div className="mx-4 sm:mx-10 md:mx-[100px] lg:mx-[200px] xl:mx-[390px]">
+      <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-[20px] sm:text-[22px] font-medium text-center md:text-left">
           THIẾT KẾ LOGO - BỘ NHẬN DIỆN THƯƠNG HIỆU
         </h1>
