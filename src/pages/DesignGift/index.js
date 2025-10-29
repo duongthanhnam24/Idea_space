@@ -19,7 +19,7 @@ function DesignGift() {
         <p>Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp</p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4 ">
+      <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-xl font-medium sm:text-2xl">
           THIẾT KẾ & CUNG CẤP QUÀ TẶNG DOANH NGHIỆP
         </h1>

@@ -14,7 +14,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 function DesignSymbolPromotion() {
   return (
     <>
-      <div className="flex flex-wrap items-center space-x-2 max-w-6xl mx-auto px-4 !h-[40px] my-6">
+      <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link to="/">Trang Chủ</Link>
         <RiArrowRightSLine />
@@ -24,7 +24,7 @@ function DesignSymbolPromotion() {
         </p>
       </div>
 
-      <div className="max-w-6xl px-4 pt-4 mx-auto">
+      <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-[22px] font-medium uppercase">
           THIẾT KẾ & THI CÔNG BIỂU TƯỢNG KIẾN TRÚC, CỔNG CHÀO, BIỂN HIỆU QUẢNG
           CÁO
