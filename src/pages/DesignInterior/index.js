@@ -20,7 +20,7 @@ function DesignInterior() {
         <p>Thiết Kế & Thi Công Nội Thất</p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-xl font-medium uppercase sm:text-2xl">
           THIẾT KẾ NỘI THẤT – KIẾN TẠO KHÔNG GIAN ĐẲNG CẤP VÀ TIỆN NGHI
         </h1>

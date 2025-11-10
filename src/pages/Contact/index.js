@@ -41,7 +41,7 @@ function Contact() {
         ></iframe>
       </div>
 
-      <div className="w-full px-4 sm:px-6 md:px-10 lg:px-20 mt-[40px]">
+      <div className="w-full px-4 sm:px-6 md:px-10 lg:px-20 mt-[40px] mb-[40px]">
         <div className="flex flex-col justify-between gap-10 md:flex-row md:gap-6">
           <div className="w-full space-y-4 md:w-1/2">
             <h2 className="text-[20px] sm:text-[22px] md:text-[24px] font-medium pt-[38px] border-b-2 border-[#0f50a8] w-fit">

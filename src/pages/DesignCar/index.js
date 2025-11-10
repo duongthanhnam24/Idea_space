@@ -24,7 +24,7 @@ function DesignCar() {
         </p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4 space-y-8">
+      <div className="max-w-[1200px] mx-auto px-4 space-y-8 mb-[40px]" >
         <h1 className="text-xl font-semibold md:text-2xl">
           THIẾT KẾ & SẢN XUẤT XE DIỄU HÀNH MÔ HÌNH
         </h1>

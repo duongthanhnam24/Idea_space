@@ -24,7 +24,7 @@ function DesignSymbolPromotion() {
         </p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[22px] font-medium uppercase">
           THIẾT KẾ & THI CÔNG BIỂU TƯỢNG KIẾN TRÚC, CỔNG CHÀO, BIỂN HIỆU QUẢNG
           CÁO

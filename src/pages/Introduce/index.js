@@ -223,7 +223,7 @@ function Introduce() {
             <div className="mt-[96px]">
                 <ContactUs />
             </div>
-            <div className="mt-[96px] mx-[287px] max-sm:mx-0 max-md:mx-0 max-lg:mx-10 max-xl:mx-10 max-2xl:mx-[100px]">
+            <div className="mt-[96px] mx-[287px] max-sm:mx-0 max-md:mx-0 max-lg:mx-10 max-xl:mx-10 max-2xl:mx-[100px] mb-[40px]">
                 <p className="font-rosellinda text-[70px] font-medium text-[#0f50a8] text-center mb-[50px]">
                     Khách Hàng Đối Tác
                 </p>

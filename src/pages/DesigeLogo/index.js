@@ -12,7 +12,7 @@ function DesignLogo() {
         <p>Thiết Kế Logo</p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[20px] sm:text-[22px] font-medium text-center md:text-left">
           THIẾT KẾ LOGO - BỘ NHẬN DIỆN THƯƠNG HIỆU
         </h1>

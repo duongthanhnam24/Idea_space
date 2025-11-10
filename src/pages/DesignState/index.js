@@ -23,7 +23,7 @@ function DesignState() {
         <p>Thiết Kế & Thi Công Gian Hàng – Sân Khấu Sự Kiện</p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[22px] font-medium uppercase">
           THIẾT KẾ & THI CÔNG GIAN HÀNG – SÂN KHẤU SỰ KIỆN
         </h1>

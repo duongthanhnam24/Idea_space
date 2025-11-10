@@ -11,12 +11,12 @@ export default function FloatingContactButtons() {
     image: MessengerIcon
   }
   const phone = {
-    href: 'tel:0389861672',
+    href: 'tel:0389944688',
     image: PhoneIcon
   }
 
   const zalo = {
-    href: 'https://zalo.me/0389861672',
+    href: 'https://zalo.me/0389944688',
     image: ZaloIcon
   }
   const images = [message, phone, zalo];
