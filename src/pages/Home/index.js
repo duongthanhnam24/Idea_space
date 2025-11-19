@@ -43,7 +43,7 @@ function Home() {
               {
                 icon: <HiOutlineUserAdd size={80} />,
                 title: "KHÔNG GIAN Ý TƯỞNG",
-                desc: "Ngay khi nhận được thông tin của khách hàng, Tây Bắc sẽ lập tức liên hệ để trao đổi nhu cầu và khảo sát hiện trạng.",
+                desc: "Ngay khi nhận được thông tin của khách hàng, Không Gian Ý Tưởng sẽ lập tức liên hệ để trao đổi nhu cầu và khảo sát hiện trạng.",
               },
               {
                 icon: <FaFileAlt size={80} />,
