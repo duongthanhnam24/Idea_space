@@ -104,7 +104,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/muong-thanh',
-        type: []
+        type: ["Trang Trí Ánh Sáng",  "Biển Quảng Cáo"]
     },
     {
         name: 'Triển Lãm A80',
@@ -130,7 +130,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/trien-lam-a80',
-        type: ['exhibition']
+        type: ["Sân Khấu Sự Kiện"]
     },
     {
         name: 'Thiết Kế Nội Thất Cho Công Ty Trang Sức PDJ Phương Đông',
@@ -148,7 +148,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/noi-that-pdj',
-        type: ['interior']
+        type: ["Nội Thất"]
     },
     {
         name: 'EuroWindow',
@@ -162,7 +162,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/eurowindow',
-        type: ['streetDecoration']
+        type: ["Trang Trí Ánh Sáng"]
     },
     {
         name: 'Đèn Cho Cổng Chào Mừng Yên Lạc',
@@ -176,7 +176,7 @@ export const data = [
             video: 'https://www.youtube.com/watch?v=rkF4ww8SwKA&list=PLQ_tNpNOYxPU0C-xovGcMMFb_hqbsNOuz&index=1'
         },
         slug: '/du-an/yen-lac',
-        type: ['streetDecoration']
+        type: ["Trang Trí Ánh Sáng"]
     },
     {
         name: 'VINATABA - 40 Năm Tự Hào Di Sản',
@@ -193,7 +193,7 @@ export const data = [
         },
         slug: '/du-an/vinataba',
         type: [
-            'exhibition',
+            "Sân Khấu Sự Kiện",
         ]
     },
     {
@@ -208,7 +208,7 @@ export const data = [
             video: 'https://www.youtube.com/watch?v=-95nUxIIl2w&list=PLQ_tNpNOYxPVccK0lcFJWpoRS5uwU2wrv'
         },
         slug: '/du-an/led-trang-tri-cot-phat-song',
-        type: ['streetDecoration']
+        type: ['Trang Trí Ánh Sáng']
     },
     {
         name: 'Trang Trí Ánh Sáng Trung Tâm Cơ Quan Hành Chính Huyện Kim Bảng',
@@ -227,7 +227,7 @@ export const data = [
             video: 'https://www.youtube.com/watch?v=xRCRPt8LMTk&list=PLQ_tNpNOYxPVccK0lcFJWpoRS5uwU2wrv'
         },
         slug: '/du-an/trang-tri-co-quan-kim-bang',
-        type: ['streetDecoration']
+        type: ['Trang Trí Ánh Sáng']
     },
     {
         name: 'Xe Diễu Hành Kỷ Niệm 70 Năm Giải Phóng Hải Phòng',
@@ -243,7 +243,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/xe-dieu-hanh-mo-hinh-ky-niem-giai-phong-hai-phong-70-nam',
-        type: ['modelParadeCar']
+        type: ['Xe Diễu Hành']
     },
     {
         name: 'Thiết Kế Biển Quảng Cáo Hải Bún',
@@ -259,7 +259,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/bien-quang-cao-hai-bun',
-        type: ['billboard']
+        type: [ "Biển Quảng Cáo"]
     },
     {
         name: 'Xe Diễu Hành Kỷ Niệm 50 Năm Ngày Giải Phóng Miền Nam',
@@ -274,7 +274,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/xe-dieu-hanh-mo-hinh-ky-niem-giai-phong-mien-nam-50-nam',
-        type: ['modelParadeCar']
+        type: ["Xe Diễu Hành"]
     },
     {
         name: 'Bộ Qùa Tặng Kỷ Niệm Fecon',
@@ -288,6 +288,6 @@ export const data = [
             video: ''
         },
         slug: '/du-an/fecon-gift',
-        type: ['gift']
+        type: ["Quà Tặng"]
     },
 ]

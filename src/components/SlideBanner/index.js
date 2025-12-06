@@ -4,11 +4,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import image1 from "../../../src/assests/images/banner-tb-1.jpg";
-import image2 from "../../../src/assests/images/banner-tb-1.jpg";
-import image3 from "../../../src/assests/images/banner-tb-1.jpg";
-import image4 from "../../../src/assests/images/banner-tb-1.jpg";
-import image5 from "../../../src/assests/images/banner-tb-1.jpg";
-import image6 from "../../../src/assests/images/banner-tb-1.jpg";
+import image2 from "../../../src/assests/images/slide1.jpg";
+import image3 from "../../../src/assests/images/slide2.jpg";
+import image4 from "../../../src/assests/images/slide3.jpg";
+import image5 from "../../../src/assests/images/slide4.jpg";
 import SlideLayout from "../SlideLayout";
 import { Autoplay, Pagination } from "swiper/modules";
 
@@ -28,12 +27,12 @@ export function SlideBanner() {
       }}
       modules={[Autoplay, Pagination]}
     >
-      {[image1, image2, image3, image4, image5, image6].map((img, index) => (
+      {[image1, image2, image3, image4, image5].map((img, index) => (
         <SwiperSlide key={index}>
           <img
             src={img}
             alt={`banner-${index}`}
-            className="object-cover w-full h-auto"
+            className="object-cover w-full "
           />
         </SwiperSlide>
       ))}

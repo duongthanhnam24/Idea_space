@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+
 import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { data } from "../../data/data";
 import { HiHome } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { RiArrowRightSLine } from "react-icons/ri";
+import BadgeComponent from "../../components/Badge/Badge";
 export default function Project() {
   const [item, setItem] = useState({});
   const location = useLocation();
@@ -63,7 +65,7 @@ export default function Project() {
           <h1 className="text-[18px] sm:text-[20px] md:text-[22px] font-medium">
             {item.name}
           </h1>
-
+          <BadgeComponent data={item.type} />
           {/* Video */}
           {!!item?.media?.video && (
             <div className="flex  w-full video-container">

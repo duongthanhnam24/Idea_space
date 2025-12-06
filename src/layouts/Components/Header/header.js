@@ -16,22 +16,22 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full shadow-md">
-      <div className="bg-[#f8f9fa] text-[14px] w-full">
+    <header className="w-full shadow-md fixed top-0 z-50">
+      <div className="bg-[#235eb1] text-[14px] w-full">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-2 md:gap-0 h-auto md:h-[53px] px-4 sm:px-8 md:px-16 lg:px-[150px] xl:px-[300px] py-2 md:py-0">
           <p className="flex items-center justify-center space-x-1">
-            <FaHome color="#0f50a8" />
-            <span>Số 41 Đường Đông Hội, Đông Anh, Hà Nội</span>
+            <FaHome color="#fff" />
+            <span className="text-white">Số 41 Đường Đông Hội, Đông Anh, Hà Nội</span>
           </p>
 
           <p className="flex items-center justify-center space-x-1">
-            <FaPhoneAlt color="#0f50a8" />
-            <span>0389-944-688</span>
+            <FaPhoneAlt color="#fff" />
+            <span className="text-white">0389-944-688</span>
           </p>
 
           <p className="flex items-center justify-center space-x-1">
-            <HiOutlineMail color="#0f50a8" />
-            <span>ytuongkg.media@gmail.com</span>
+            <HiOutlineMail color="#fff" />
+            <span className="text-white">ytuongkg.media@gmail.com</span>
           </p>
         </div>
       </div>
@@ -57,14 +57,17 @@ export function Header() {
             menuOpen
               ? "flex flex-col absolute top-[80px] left-0 w-full bg-white border-t shadow-md z-50"
               : "hidden"
-          } md:flex md:flex-row md:static md:w-2/3 md:justify-between items-center`}
+          } md:flex md:flex-row md:static md:w-2/3 md:justify-between items-center h-full`}
         >
-          <Link
-            to="/gioi-thieu"
-            className="py-3 md:py-0 px-4 text-[16px] font-medium hover:text-[#0f50a8] text-center"
-          >
-            Giới Thiệu
-          </Link>
+          
+            <Link
+              to="/gioi-thieu"
+              className="py-3 md:py-0 px-4 text-[16px] font-medium hover:text-[#0f50a8]   text-center "
+            
+             >
+              Giới Thiệu
+            </Link>
+          
 
           <Dropdown
             label="Dịch Vụ"
