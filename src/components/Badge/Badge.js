@@ -14,7 +14,7 @@ export default function BadgeComponent({ data }) {
                <p> Loại Dự Án:</p>
                 {data && data.map((type, index) => (
                     <>
-                        <div key={index} className="bg-gray-400 w-fit px-2 text-center  py-1 text-sm">
+                        <div key={index} className="bg-gray-400 w-fit px-2 text-center text-white  py-1 text-sm">
                             {type}
                         </div>
                     </>

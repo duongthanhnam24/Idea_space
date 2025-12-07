@@ -1,4 +1,4 @@
-import noithat1 from "../../assests/images/thi_cong_noi_that_gian_hang/16835807_1641793935836689_3846480540148624865_o.jpg";
+import noithat1 from "../../assests/images/showroombichthuy/bichthuy1.jpg";
 import noithat2 from "../../assests/images/thi_cong_noi_that_gian_hang/23415193_1950948831587863_6103840747349541089_o.jpg";
 import noithat3 from "../../assests/images/thi_cong_noi_that_gian_hang/23415492_1950948928254520_604068841349853287_o.jpg";
 import noithat4 from "../../assests/images/thi_cong_noi_that_gian_hang/53506240_2626245827391490_3472509774967341056_n.jpg";

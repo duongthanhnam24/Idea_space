@@ -55,7 +55,7 @@ export function Header() {
         <nav
           className={`${
             menuOpen
-              ? "flex flex-col absolute top-[80px] left-0 w-full bg-white border-t shadow-md z-50"
+              ? "flex flex-col absolute top-[80px] left-0 w-full bg-white border-t shadow-md z-50 h-fit"
               : "hidden"
           } md:flex md:flex-row md:static md:w-2/3 md:justify-between items-center h-full`}
         >

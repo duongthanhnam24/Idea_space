@@ -1,20 +1,4 @@
-import muongthanh from '../assests/images/khach_san_Muong_Thanh/16716296_1642038599145556_1313016937489333134_o.jpg'
-import muongthanh2 from '../assests/images/khach_san_Muong_Thanh/16819088_1642038825812200_6821429266978369594_o.jpg'
-import muongthanh3 from '../assests/images/khach_san_Muong_Thanh/16797127_1641823432500406_6846985270506830815_o.jpg'
-import muongthanh4 from '../assests/images/khach_san_Muong_Thanh/16804107_1641823425833740_982542692158014443_o.jpg'
-import muongthanh5 from '../assests/images/khach_san_Muong_Thanh/16804156_1642038592478890_3252002699934734997_o.jpg'
-import muongthanh6 from '../assests/images/khach_san_Muong_Thanh/16804333_1644921028857313_3658180793597207268_o.jpg'
-import muongthanh7 from '../assests/images/khach_san_Muong_Thanh/16826063_1644921022190647_8323090873637077460_o.jpg'
-import muongthanh8 from '../assests/images/khach_san_Muong_Thanh/16835972_1642038605812222_3848344335368615879_o.jpg'
-import muongthanh9 from '../assests/images/khach_san_Muong_Thanh/18222136_1733545256661556_8785410498643114801_n.jpg'
-import muongthanh10 from '../assests/images/khach_san_Muong_Thanh/18268573_1733545259994889_5398838501085340253_n.jpg'
-import muongthanh11 from '../assests/images/khach_san_Muong_Thanh/18278812_1733543959995019_1185178914884719134_o.jpg'
-import muongthanh12 from '../assests/images/khach_san_Muong_Thanh/18278885_1733543963328352_6931583638974634027_o.jpg'
-import muongthanh13 from '../assests/images/khach_san_Muong_Thanh/23509352_1950948821587864_3349971294160718802_o.jpg'
-import muongthanh14 from '../assests/images/khach_san_Muong_Thanh/38136091_2281266438556099_497356482732359680_o.jpg'
-import muongthanh15 from '../assests/images/khach_san_Muong_Thanh/38130103_2281266261889450_1156681082754564096_o.jpg'
-import muongthanh16 from '../assests/images/khach_san_Muong_Thanh/38125783_2281266241889452_8931442980896636928_o.jpg'
-import muongthanh17 from '../assests/images/khach_san_Muong_Thanh/38085269_2281266425222767_296605854436687872_o.jpg'
+
 import trienlam1 from "../assests/images/gian_hang_trien_lam/z6944765441032_cd1b16dfe5db7334b889eabe32f9742c.jpg"
 import trienlam2 from "../assests/images/gian_hang_trien_lam/z6944765441227_2c64410f5f898a1aa09e13ee35b39ec0.jpg"
 import trienlam3 from "../assests/images/gian_hang_trien_lam/z6944765441229_0b02b92683f1efc7509e4a251eff9bf7.jpg"
@@ -29,7 +13,6 @@ import trienlam11 from "../assests/images/gian_hang_trien_lam/z6947292092916_cd3
 import trienlam12 from "../assests/images/gian_hang_trien_lam/z6947292107627_020227d4cd7c1f5f4c2fca74129db232.jpg"
 import trienlam13 from "../assests/images/gian_hang_trien_lam/z6947292128818_0172d1cf9d28f14b4e3363e8065af262.jpg"
 import trienlam14 from "../assests/images/gian_hang_trien_lam/z6947292131412_b54813547886c9bed7e4bb7042136fdd.jpg"
-import PDJ1 from "../assests/images/thi_cong_noi_that_gian_hang/16835807_1641793935836689_3846480540148624865_o.jpg"
 import PDJ2 from "../assests/images/thi_cong_noi_that_gian_hang/53506240_2626245827391490_3472509774967341056_n.jpg"
 import PDJ3 from "../assests/images/thi_cong_noi_that_gian_hang/53625559_2626246480724758_2739831200863485952_n.jpg"
 import PDJ4 from "../assests/images/thi_cong_noi_that_gian_hang/53814314_2626246090724797_4023653533306847232_n.jpg"
@@ -76,36 +59,59 @@ import xedieuhanhgiaiphongmiennam3 from "../assests/images/xe_dieu_hanh/lo-dien-
 
 import fecongift from "../assests/images/Qua_tang/fecongift.jpg"
 import fecongift2 from "../assests/images/Qua_tang/fecongift2.jpg"
-export const data = [
-    {
-        name: 'Dự Án Mường Thanh',
-        cardImage: muongthanh2,
-        media: {
-            image: [
-                muongthanh,
-                muongthanh2,
-                muongthanh3,
-                muongthanh4,
-                muongthanh5,
-                muongthanh6,
-                muongthanh7,
-                muongthanh8,
-                muongthanh9,
-                muongthanh10,
-                muongthanh11,
-                muongthanh12,
-                muongthanh13,
-                muongthanh14,
-                muongthanh15,
-                muongthanh16,
-                muongthanh17
 
-            ],
-            video: ''
-        },
-        slug: '/du-an/muong-thanh',
-        type: ["Trang Trí Ánh Sáng",  "Biển Quảng Cáo"]
-    },
+import biggroup1 from "../assests/images/biggroup/biggroup1.jpg"
+import biggroup2 from "../assests/images/biggroup/biggroup2.jpg"
+import biggroup3 from "../assests/images/biggroup/biggroup3.jpg"
+import biggroup4 from "../assests/images/biggroup/biggroup4.jpg"
+import biggroup5 from "../assests/images/biggroup/biggroup5.jpg"
+
+import idemitsu from "../assests/images/idemitsu/idemitsu.jpg"
+import idemitsu2 from "../assests/images/idemitsu/idemitsu2.jpg"
+import  idemitsu3 from "../assests/images/idemitsu/idemitsu3.jpg"
+
+import muongthanhnghean1 from "../assests/images/muongthanhnghean/muongthanh1.jpg"
+import muongthanhnghean2 from "../assests/images/muongthanhnghean/muongthanh2.jpg"
+import muongthanhnghean3 from "../assests/images/muongthanhnghean/muongthanh3.jpg"
+import muongthanhnghean4 from "../assests/images/muongthanhnghean/muongthanh4.jpg"
+import muongthanhnghean5 from "../assests/images/muongthanhnghean/muongthanh5.jpg" 
+import muongthanhnghean6 from "../assests/images/muongthanhnghean/muongthanh6.jpg" 
+import muongthanhnghean7 from "../assests/images/muongthanhnghean/muongthanh7.jpg"
+
+import phuongdonggold1 from "../assests/images/phuongdonggold/phuongdong1.jpg" 
+import phuongdonggold2 from "../assests/images/phuongdonggold/phuongdong2.jpg" 
+import phuongdonggold3 from "../assests/images/phuongdonggold/phuongdong3.jpg"
+
+
+import salon1 from "../assests/images/salon/salon1.jpg" 
+import salon2 from "../assests/images/salon/salon2.jpg" 
+import salon3 from "../assests/images/salon/salon3.jpg"
+
+import bichthuy1 from "../assests/images/showroombichthuy/bichthuy1.jpg" 
+import bichthuy2 from "../assests/images/showroombichthuy/bichthuy2.jpg" 
+import bichthuy3 from "../assests/images/showroombichthuy/bichthuy3.jpg" 
+import bichthuy4 from "../assests/images/showroombichthuy/bichthuy4.jpg" 
+import bichthuy5 from "../assests/images/showroombichthuy/bichthuy5.jpg"
+
+import showroom1 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom1.jpg" 
+import showroom2 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom2.jpg" 
+import showroom3 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom3.jpg" 
+import showroom4 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom4.jpg" 
+import showroom5 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom5.jpg" 
+import showroom6 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom6.jpg" 
+import showroom7 from  "../assests/images/thi_cong_noi_that_gian_hang/showroom7.jpg"
+
+import uca1 from "../assests/images/uca/uca1.jpg" 
+import uca2 from "../assests/images/uca/uca2.jpg" 
+import uca3 from "../assests/images/uca/uca3.jpg" 
+import uca4 from "../assests/images/uca/uca4.jpg"
+
+import vietbuild1 from "../assests/images/vietbuild2017/vietbuild1.jpg" 
+import vietbuild2 from "../assests/images/vietbuild2017/vietbuild2.jpg" 
+import vietbuild3 from "../assests/images/vietbuild2017/vietbuild3.jpg" 
+import vietbuild4 from "../assests/images/vietbuild2017/vietbuild4.jpg"
+export const data = [
+    
     {
         name: 'Triển Lãm A80',
         cardImage: trienlam1,
@@ -134,10 +140,9 @@ export const data = [
     },
     {
         name: 'Thiết Kế Nội Thất Cho Công Ty Trang Sức PDJ Phương Đông',
-        cardImage: PDJ1,
+        cardImage: PDJ2,
         media: {
             image: [
-                PDJ1,
                 PDJ2,
                 PDJ3,
                 PDJ4,
@@ -259,7 +264,7 @@ export const data = [
             video: ''
         },
         slug: '/du-an/bien-quang-cao-hai-bun',
-        type: [ "Biển Quảng Cáo"]
+        type: ["Biển Quảng Cáo"]
     },
     {
         name: 'Xe Diễu Hành Kỷ Niệm 50 Năm Ngày Giải Phóng Miền Nam',
@@ -290,4 +295,147 @@ export const data = [
         slug: '/du-an/fecon-gift',
         type: ["Quà Tặng"]
     },
+    {
+        name: 'Văn Phòng BIG GROUP',
+        cardImage: biggroup1,
+        media: {
+            image: [
+                biggroup1,
+                biggroup2,
+                biggroup3,
+                biggroup4,
+                biggroup5
+            ],
+            video: ''
+        },
+        slug: '/du-an/big-group-office',
+        type: ["Nội Thất"]
+    },
+     {
+        name: 'Thi Công Pano IDEMITSU',
+        cardImage: idemitsu,
+        media: {
+            image: [
+                idemitsu,
+                idemitsu2,
+                idemitsu3,
+            ],
+            video: ''
+        },
+        slug: '/du-an/idemitsu-pano',
+        type: ["Biển Quảng Cáo"]
+    },
+    {
+        name: 'Thi Công Khu Sinh Thái - Vườn Thú Tại Mường Thanh Diễn Châu - Nghệ An',
+        cardImage: muongthanhnghean1,
+        media: {
+            image: [
+                muongthanhnghean1,
+                muongthanhnghean2,
+                muongthanhnghean3,
+                muongthanhnghean4,
+                muongthanhnghean5,
+                muongthanhnghean6,
+                muongthanhnghean7
+            ],
+            video: ''
+        },
+        slug: '/du-an/khach-san-muong-thanh-nghe-an',
+        type: ["Biển Quảng Cáo"]
+    },
+     {
+        name: 'Thi công nội thất cửa hàng Vàng bạc tại TP. Nam Định',
+        cardImage: phuongdonggold1,
+        media: {
+            image: [
+                phuongdonggold1,
+                phuongdonggold2,
+                phuongdonggold3,
+            ],
+            video: ''
+        },
+        slug: '/du-an/phuong-dong-gold',
+        type: ["Nội Thất"]
+    },
+    {
+        name: 'Thi công Hair Salon',
+        cardImage: salon1,
+        media: {
+            image: [
+                salon1,
+                salon2,
+                salon3,
+            ],
+            video: ''
+        },
+        slug: '/du-an/hair-salon',
+        type: ["Nội Thất"]
+    },
+     {
+        name: 'Hoàn thiện showroom công ty Bích Thủy',
+        cardImage: bichthuy1,
+        media: {
+            image: [
+                bichthuy1,
+                bichthuy2,
+                bichthuy3,
+                bichthuy4,
+                bichthuy5
+            ],
+            video: ''
+        },
+        slug: '/du-an/showroom-bich-thuy',
+        type: ["Nội Thất"]
+    },
+     {
+        name: 'Thi Công Showroom Expresscenter',
+        cardImage: showroom2,
+        media: {
+            image: [
+                showroom1,
+                showroom2,
+                showroom3,
+                showroom4,
+                showroom5,
+                showroom6,
+                showroom7
+            ],
+            video: ''
+        },
+        slug: '/du-an/showroom-expresscenter',
+        type: ["Nội Thất" ,  "Biển Quảng Cáo"]
+    },
+     {
+        name: 'Thi công trụ sở văn phòng Liên hiệp HTX tiêu thụ nông sản an toàn Việt Nam',
+        cardImage: uca1,
+        media: {
+            image: [
+                uca1,
+                uca2,
+                uca3,
+                uca4,
+            ],
+            video: ''
+        },
+        slug: '/du-an/lien-hiep-htx',
+        type: ["Nội Thất" ,  "Biển Quảng Cáo"]
+    },
+    {
+        name: 'Thi công gian hàng tại hội chợ Vietbuild 2017',
+        cardImage: vietbuild1,
+        media: {
+            image: [
+                vietbuild1,
+                vietbuild2,
+                vietbuild3,
+                vietbuild4,
+                
+            ],
+            video: ''
+        },
+        slug: '/du-an/gian-hang-vietbuild-2017',
+        type: ["Sân Khấu Sự Kiện"]
+    },
+
+
 ]

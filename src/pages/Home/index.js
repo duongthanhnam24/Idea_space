@@ -11,7 +11,7 @@ import { data } from "../../data/data";
 import trienlam from "../../assests/images/gian_hang_trien_lam/z6944765441032_cd1b16dfe5db7334b889eabe32f9742c.jpg"
 import vinataba from "../../assests/images/products/vinataba.png"
 import muongthanh from '../../assests/images/khach_san_Muong_Thanh/16819088_1642038825812200_6821429266978369594_o.jpg'
-import PDJ from "../../assests/images/thi_cong_noi_that_gian_hang/16835807_1641793935836689_3846480540148624865_o.jpg"
+import PDJ from "../../assests/images/showroombichthuy/bichthuy1.jpg"
 import xedieuhanhgiaiphongmiennam from "../../assests/images/xe_dieu_hanh/lo-dien-loat-xe-mo-hinh-dieu-hanh-dip-30-thang-4-2-17451271314111997469189.webp"
 import { Link } from "react-router-dom";
 
