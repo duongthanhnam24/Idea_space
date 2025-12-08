@@ -9,6 +9,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 import BadgeComponent from "../../components/Badge/Badge";
 export default function Project() {
   const [item, setItem] = useState({});
+  const [dataFilter, setDataFilter] = useState([]);
   const location = useLocation();
   const product = location.state;
   const params = useParams().slug;
@@ -16,13 +17,17 @@ export default function Project() {
   const [embedUrl, setEmbedUrl] = useState("");
   useEffect(() => {
     if (product) {
-      console.log(item, "before 1");
 
       // Nếu có product trong location.state thì dùng luôn
       setItem(product);
+      const filter = data.filter((itemProject) => {
+        return itemProject.type.some((type) => {
+          return product.type.includes(type) && itemProject.slug !== product.slug
+        })
+      })
+      console.log(filter);
 
-      console.log(item, "after 1");
-
+      setDataFilter(filter);
       // Lấy video nếu có
       if (product?.media?.video) {
         const videoId = new URL(product.media.video).searchParams.get("v");
@@ -32,11 +37,12 @@ export default function Project() {
       // Nếu không có product -> tìm trong data
       const findProduct = data.find((item) => item.slug === `/du-an/${params}`);
       if (findProduct) {
-        console.log(item, "before 2");
-
         setItem(findProduct);
-        console.log(item, "after 2");
-
+        const filter = data.filter((itemProject) => {
+          return itemProject.type.some((type) => product.type.includes(type))
+        })
+        setDataFilter(filter);
+        console.log(dataFilter);
         if (findProduct?.media?.video) {
           const videoId = new URL(findProduct.media.video).searchParams.get(
             "v"
@@ -45,12 +51,14 @@ export default function Project() {
         }
       }
     }
+
   }, [product, params]);
+
 
   return (
     <>
       {!!item ? (
-        <div className="max-w-full px-4 sm:px-6 md:px-10 lg:mx-[200px] xl:mx-[340px] space-y-10">
+        <div className="max-w-full px-4 sm:px-6 md:px-10 lg:mx-[200px] xl:mx-[250px] space-y-10">
           {/* Breadcrumb */}
           <div className="flex flex-wrap items-center space-x-2 !h-[40px] my-6 text-sm sm:text-base">
             <HiHome />
@@ -66,33 +74,63 @@ export default function Project() {
             {item.name}
           </h1>
           <BadgeComponent data={item.type} />
-          {/* Video */}
-          {!!item?.media?.video && (
-            <div className="flex  w-full video-container">
-              <iframe
-                className="w-full sm:w-[560px] h-[220px] sm:h-[315px] rounded-md"
-                src={embedUrl}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
-          )}
+            <div className="flex max-xs:flex-col max-sm:flex-col max-md:flex-col max-xl:flex-col max-2xl:flex-col">
 
-          {/* Hình ảnh */}
-          {item?.media?.image.map((img, index) => {
-            return (
-              <div key={index} className="flex flex-col w-full">
-                <img
-                  src={img}
-                  className="w-full sm:w-[600px] md:w-[700px] lg:w-[800px] object-cover"
-                />
-                <p className="mt-2 text-sm  sm:text-base">
-                  {item.name}
-                </p>
+          {/* Video */}
+          <div className="flex flex-col space-y-8">
+            {!!item?.media?.video && (
+              <div className="flex  w-full video-container">
+                <iframe
+                  className="w-full sm:w-[560px] h-[220px] sm:h-[315px] rounded-md"
+                  src={embedUrl}
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
-            );
-          })}
+            )}
+            {/* Hình ảnh */}
+            
+                <div className="flex flex-col">
+                  {item?.media?.image.map((img, index) => {
+                    return (
+                      <div key={index} className="flex flex-col w-full">
+                        <img
+                          src={img}
+                          className="w-full sm:w-[600px] md:w-[700px] lg:w-[800px] object-cover"
+                        />
+                        <p className="mt-2 text-sm  sm:text-base">
+                          {item.name}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+          </div>
+
+              <div className="ml-32 max-xs:ml-0 max-xs:mt-10 max-sm:ml-0 max-sm:mt-10 max-md:ml-0 max-md:mt-10 max-xl:ml-0 max-xl:mt-10 max-2xl:ml-0 max-2xl:mt-10">
+                <h3 className="text-[30px] uppercase font-medium py-2">Các Dự Án Liên Quan</h3>
+                <div className="border-b-2 w-[80px] border-[#235eb1]"></div>
+                <div className="mt-4 space-y-3">
+                  {dataFilter.map((itemRelated) => {
+                    return (
+                      <Link
+                        to={itemRelated.slug}
+                        state={itemRelated}
+                        key={itemRelated.name}
+                        className="flex  items-center space-x-4 p-4 shadow-lg w-[400px] max-xs:w-full max-sm:w-full max-md:w-full hover:shadow-2xl max-xl:w-full max-2xl:w-full">
+                        <img src={itemRelated.cardImage} className="w-[82px] h-[82px] object-cover" />
+                        <p>
+                          {itemRelated.name}
+                        </p>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+
+          
         </div>
       ) : (
         <div className="w-full max-w-sm p-4 mx-auto border border-blue-300 rounded-md">
