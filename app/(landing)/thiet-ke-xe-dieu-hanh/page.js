@@ -37,12 +37,12 @@ function DesignCar() {
 
       <div className="max-w-[1200px] mx-auto px-4 space-y-8 mb-[40px]" >
         <h1 className="text-xl font-semibold md:text-2xl">
-          THIẾT KẾ & SẢN XUẤT XE DIỄU HÀNH MÔ HÌNH
+          THIẾT KẾ & SẢN XUẤT XE DIỄU HÀNH MÔ HÌNH <strong className="text-xl! font-medium! uppercase! sm:text-2xl!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <section>
           <h2 className="mt-6 text-lg font-medium md:text-xl">
-            1. Giới thiệu về <strong>XE DIỄU HÀNH MÔ HÌNH</strong>
+            1. Giới thiệu về <strong className="text-lg! font-medium! md:text-xl!">XE DIỄU HÀNH MÔ HÌNH</strong>
           </h2>
           <p className="mt-3 text-base leading-relaxed text-justify md:text-lg">
             Xe diễu hành mô hình là điểm nhấn không thể thiếu trong các lễ hội,

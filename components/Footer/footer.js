@@ -8,9 +8,9 @@ export function Footer() {
       <div className="bg-[#262626]  px-6 sm:px-10 md:px-21 py-12 text-white flex flex-col md:flex-row items-start md:items-center justify-between space-y-8 md:space-y-0">
         <div className="space-y-4">
           <div className="flex flex-col space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0">
-            <img src={logo.src} alt="logo" className="w-[60px] mx-auto sm:mx-0" />
+            <img src={logo.src} alt="Không Gian Ý Tưởng" className="w-[60px] mx-auto sm:mx-0" />
             <p className="text-sm text-left sm:text-base">
-              CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG
+              CÔNG TY CỔ PHẦN TRUYỀN THÔNG <strong>KHÔNG GIAN Ý TƯỞNG</strong>
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export function Footer() {
 
       <div className="bg-black h-10 w-full flex items-center justify-center px-2 text-center">
         <p className="text-xs text-white sm:text-sm">
-          Copyright © 2025 Idea Space. All rights reserved.
+          Copyright © 2025 <span>Không Gian Ý Tưởng</span>. All rights reserved.
         </p>
       </div>
     </div>

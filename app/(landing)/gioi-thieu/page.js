@@ -26,6 +26,11 @@ export const metadata = {
         "Đội Ngũ Chất Luợng",
         "Chất Lượng Đạt Chuẩn",
         "Luôn Luôn Sáng Tạo",
+        'Không Gian Ý Tưởng',
+        'Thiết Kế Quảng Cáo',
+        'Thi Công Quảng Cáo',
+        'Công Ty Quảng Cáo',
+        
     ]
 };
 
@@ -33,9 +38,9 @@ function Introduce() {
     return (
         <div>
             <div className="relative text-white w-full">
-                <img src={imgae.src} className="w-full object-cover h-[400px] brightness-50" />
+                <img src={imgae.src} alt="Không Gian Ý Tưởng" className="w-full object-cover h-[400px] brightness-50" />
                 <div className="max-sm:ml-10 max-sm:mr-0 max-md:mx-10  absolute bottom-12 mx-[287px] space-y-2 max-xl:mx-10 max-2xl:mx-[100px] max-3xl:mx-[100px]">
-                    <h2 className="text-4xl font-bold border-b-2 border-[#0f50a8] ">Giới Thiệu</h2>
+                    <h2 className="text-4xl font-bold border-b-2 border-[#0f50a8] ">Giới Thiệu Về <strong className="text-4xl! font-bold!">Không Gian Ý Tưởng</strong></h2>
                     <div className="flex space-x-3 items-center"><Link href='/'>Trang Chủ</Link><MdDoubleArrow /> <Link href='/gioi-thieu'>Giới Thiệu</Link> </div>
                 </div>
             </div>
@@ -46,14 +51,17 @@ function Introduce() {
                             Thư Giới Thiệu
                         </p>
                         <p className="font-medium text-[18px]">
-                            CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG <br /> MỘT TRONG NHỮNG CÔNG TY THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP.
+                            CÔNG TY CỔ PHẦN TRUYỀN THÔNG <strong className="font-medium! text-[18px]!">KHÔNG GIAN Ý TƯỞNG</strong> <br /> MỘT TRONG NHỮNG CÔNG TY THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP.
                         </p>
                         <p className="text-[14px] text-justify  text-sm/6">
-                            Không Gian Ý Tưởng Có Đội Ngũ Họa Sĩ Thiết Kế, Kiến Trúc Sư, Kỹ Sư, Cán Bộ Kỹ Thuật Và Đội Ngũ Công Nhân Lành Nghề Với Nhiều Năm Kinh Nghiệm Trong Lĩnh Vực Thiết Kế - Sản Xuất - Thi Công Quảng Cáo, Kiến Trúc, Nội Thất. Chúng Tôi Luôn Cam Kết Đảm Bảo Tiến Độ, Đạt Chất Lượng - Kỹ Thuật - Mỹ Thuật Tốt Nên Luôn Được Các Chủ Đầu Tư Và Các Đối Tác Đánh Giá Cao Và Cộng Tác Lâu Dài Trong Suốt Thời Gian Qua. Không Gian Ý Tưởng Đã Thi Công Nhiều Công Trình Và Hợp Tác Với Những Tập Đoàn, Công Ty Lớn Như VNPT, MƯỜNG THANH, AEON, GAMUDA LAND, EUROWINDOW... Được Biết Quý Khách Có Nhu Cầu Thiết Kế Thi Công Hạng Mục Công Chào, Biển Hiệu Quảng Cáo... Với Năng Lực Hiện Có, Công Ty Không Gian Ý Tưởng Xin Đăng Ký Tham Gia: Tư Vấn Thiết Kế Và Thi Công Cho Quý Công Ty. Với Phương Châm: “Lấy Uy Tín Làm Vốn” Công Ty Chúng Tôi Cam Kết Sẽ Luôn Làm Hài Lòng Khách Hàng Và Thực Hiện Nghiêm Túc Các Điều Khoản Trong Hợp Đồng, Hoàn Thành Công Việc Đúng Tiến Độ Với Chất Lượng Cao.
+                            <strong className="text-[14px]! text-sm/6!">
+                                Không Gian Ý Tưởng
+                                
+                                </strong> Có Đội Ngũ Họa Sĩ Thiết Kế, Kiến Trúc Sư, Kỹ Sư, Cán Bộ Kỹ Thuật Và Đội Ngũ Công Nhân Lành Nghề Với Nhiều Năm Kinh Nghiệm Trong Lĩnh Vực Thiết Kế - Sản Xuất - Thi Công Quảng Cáo, Kiến Trúc, Nội Thất. Chúng Tôi Luôn Cam Kết Đảm Bảo Tiến Độ, Đạt Chất Lượng - Kỹ Thuật - Mỹ Thuật Tốt Nên Luôn Được Các Chủ Đầu Tư Và Các Đối Tác Đánh Giá Cao Và Cộng Tác Lâu Dài Trong Suốt Thời Gian Qua. <strong className="text-[14px]! text-sm/6!">Không Gian Ý Tưởng</strong> Đã Thi Công Nhiều Công Trình Và Hợp Tác Với Những Tập Đoàn, Công Ty Lớn Như VNPT, MƯỜNG THANH, AEON, GAMUDA LAND, EUROWINDOW... Được Biết Quý Khách Có Nhu Cầu Thiết Kế Thi Công Hạng Mục Công Chào, Biển Hiệu Quảng Cáo... Với Năng Lực Hiện Có, Công Ty <strong className="text-[14px]! text-sm/6!">Không Gian Ý Tưởng</strong> Xin Đăng Ký Tham Gia: Tư Vấn Thiết Kế Và Thi Công Cho Quý Công Ty. Với Phương Châm: “Lấy Uy Tín Làm Vốn” Công Ty Chúng Tôi Cam Kết Sẽ Luôn Làm Hài Lòng Khách Hàng Và Thực Hiện Nghiêm Túc Các Điều Khoản Trong Hợp Đồng, Hoàn Thành Công Việc Đúng Tiến Độ Với Chất Lượng Cao.
                         </p>
                     </div>
                    <div className="flex justify-center">
-                     <img src={company.src} className="w-[500px] h-[600px] max-sm:w-full max-sm:mt-6 max-sm:ml-0! max-sm:h-[400px] max-xl:w-[400px]  max-xl:h-[500px] " />
+                     <img src={company.src} alt="Không Gian Ý Tưởng" className="w-[500px] h-[600px] max-sm:w-full max-sm:mt-6 max-sm:ml-0! max-sm:h-[400px] max-xl:w-[400px]  max-xl:h-[500px] " />
                    </div>
                 </div>
                 <div className="mt-24">
@@ -135,14 +143,14 @@ function Introduce() {
                         </div>
                         <div className="col-span-2 row-span-1">
                             <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6  max-lg:flex-col max-lg:items-center max-lg:space-y-6">
-                                <img src={may1.src} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
-                                <img src={may2.src} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may1.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may2.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
                         </div> 
                         <div className="col-span-2 row-span-1">
                             <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6 max-lg:flex-col max-lg:items-center max-lg:space-y-6">
-                                <img src={may3.src} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
-                                <img src={may4.src} className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may3.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <img src={may4.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
                         </div>
                     </div>

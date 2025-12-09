@@ -32,7 +32,7 @@ export function SlideBanner() {
         <SwiperSlide key={index}>
           <img
             src={img.src}
-            alt={`banner-${index}`}
+            alt={`Không Gian Ý Tưởng-${index}`}
             className="object-cover w-full "
           />
         </SwiperSlide>

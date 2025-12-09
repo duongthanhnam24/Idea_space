@@ -43,7 +43,7 @@ function DesignBuilding() {
 
       <div className="max-w-[1200px] mx-auto px-4 space-y-8 mb-[40px]">
         <h1 className="text-xl font-semibold md:text-2xl">
-          THIẾT KẾ & TRANG TRÍ ÁNH SÁNG CỦA ĐƯỜNG PHỐ VÀ TÒA NHÀ
+          THIẾT KẾ & TRANG TRÍ ÁNH SÁNG CỦA ĐƯỜNG PHỐ VÀ TÒA NHÀ <strong className=" font-medium! uppercase! sm:text-2xl!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <section>

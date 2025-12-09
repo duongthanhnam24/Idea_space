@@ -38,7 +38,7 @@ function DesignState() {
 
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[22px] font-medium uppercase">
-          THIẾT KẾ & THI CÔNG GIAN HÀNG – SÂN KHẤU SỰ KIỆN
+          THIẾT KẾ & THI CÔNG GIAN HÀNG – SÂN KHẤU SỰ KIỆN <strong className="text-xl! font-medium! uppercase! sm:text-2xl!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <p className="mt-[10px] text-base md:text-lg w-full md:w-[90%] text-justify">
@@ -72,7 +72,7 @@ function DesignState() {
 
         <img
           src={vinataba.src}
-          alt="Thiet ke san khau su kien"
+          alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
         />
 
@@ -101,7 +101,7 @@ function DesignState() {
 
         <img
           src={bornpink.src}
-          alt="Thiet ke san khau su kien"
+          alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
         />
 
@@ -124,7 +124,7 @@ function DesignState() {
 
         <img
           src={travelEvent.src}
-          alt="Thiet ke san khau su kien"
+          alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
         />
 
@@ -133,32 +133,32 @@ function DesignState() {
         <div className="flex flex-col items-center space-y-10">
           <img
             src={Event1.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
           <img
             src={sankhauA80.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
           <img
             src={Event3.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
           <img
             src={esport1.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
           <img
             src={esport2.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
           <img
             src={esport3.src}
-            alt="Thiet ke san khau su kien"
+            alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
         </div>

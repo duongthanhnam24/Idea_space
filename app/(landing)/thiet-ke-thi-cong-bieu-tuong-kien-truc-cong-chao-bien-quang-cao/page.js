@@ -43,7 +43,7 @@ function DesignSymbolPromotion() {
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[22px] font-medium uppercase">
           THIẾT KẾ & THI CÔNG BIỂU TƯỢNG KIẾN TRÚC, CỔNG CHÀO, BIỂN HIỆU QUẢNG
-          CÁO
+          CÁO <strong className=" font-medium! uppercase! sm:text-2xl!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <h2 className="mt-[40px] text-xl">
@@ -73,7 +73,7 @@ function DesignSymbolPromotion() {
           an toàn – đạt chuẩn kỹ thuật.
         </p>
 
-        <img src={bienhieu1.src} className="mt-[40px] w-full md:w-[70%] mx-auto" />
+        <img src={bienhieu1.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
 
         <h2 className="mt-[40px] text-xl">2. Các Hạng Mục Thi Công Chính</h2>
 
@@ -136,7 +136,7 @@ function DesignSymbolPromotion() {
           <li>Sử dụng vật liệu bền – chống thời tiết – bảo hành dài hạn.</li>
         </ul>
 
-        <img src={bienhieu2.src} className="mt-[40px] w-full md:w-[70%] mx-auto" />
+        <img src={bienhieu2.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
 
         {/* Quy trình */}
         <h2 className="mt-[40px] text-xl">3. Quy Trình Thiết Kế & Thi Công</h2>
@@ -154,12 +154,12 @@ function DesignSymbolPromotion() {
         <h2 className="mt-[40px] text-xl">4. Những Dự Án Đã Từng Thực Hiện</h2>
 
         <div className="flex flex-col items-center space-y-10">
-          <img src={bienhieu4.src} className="w-full md:w-[70%]" />
-          <img src={bienhieu5.src} className="w-full md:w-[70%]" />
-          <img src={bienhieu6.src} className="w-full md:w-[70%]" />
-          <img src={bienhieu7.src} className="w-full md:w-[70%]" />
-          <img src={bienhieu8.src} className="w-full md:w-[70%]" />
-          <img src={bienhieu9.src} className="w-full md:w-[70%]" />
+          <img src={bienhieu4.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <img src={bienhieu5.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <img src={bienhieu6.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <img src={bienhieu7.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <img src={bienhieu8.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <img src={bienhieu9.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
         </div>
       </div>
     </>

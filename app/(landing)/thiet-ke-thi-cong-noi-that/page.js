@@ -36,7 +36,7 @@ function DesignInterior() {
 
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-xl font-medium uppercase sm:text-2xl">
-          THIẾT KẾ NỘI THẤT – KIẾN TẠO KHÔNG GIAN ĐẲNG CẤP VÀ TIỆN NGHI
+          THIẾT KẾ NỘI THẤT – KIẾN TẠO KHÔNG GIAN ĐẲNG CẤP VÀ TIỆN NGHI <strong className="text-xl! font-medium! uppercase! sm:text-2xl!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <h2 className="mt-10 text-lg sm:text-xl">1. Giới Thiệu</h2>
@@ -62,7 +62,7 @@ function DesignInterior() {
 
         <img
           src={noithat1.src}
-          alt="Thiet ke noi that"
+          alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -127,7 +127,7 @@ function DesignInterior() {
 
         <img
           src={noithat2.src}
-          alt="Thiet ke noi that"
+          alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -159,7 +159,7 @@ function DesignInterior() {
 
         <img
           src={noithat3.src}
-          alt="Thiet ke noi that"
+          alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -169,27 +169,27 @@ function DesignInterior() {
         <div className="flex flex-col items-center mt-6 space-y-10">
           <img
             src={noithat4.src}
-            alt="Du an noi that"
+            alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={noithat5.src}
-            alt="Du an noi that"
+            alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={noithat6.src}
-            alt="Du an noi that"
+            alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={noithat7.src}
-            alt="Du an noi that"
+            alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={noithat8.src}
-            alt="Du an noi that"
+            alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
         </div>

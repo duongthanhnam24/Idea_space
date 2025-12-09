@@ -34,7 +34,7 @@ function DesignGift() {
 
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-xl font-medium sm:text-2xl">
-          THIẾT KẾ & CUNG CẤP QUÀ TẶNG DOANH NGHIỆP
+          THIẾT KẾ & CUNG CẤP QUÀ TẶNG DOANH NGHIỆP <strong className="text-[20px]! sm:text-[22px]! font-medium!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <h2 className="mt-10 text-lg sm:text-xl">
@@ -53,7 +53,7 @@ function DesignGift() {
 
         <img
           src={mbs.src}
-          alt="thiet ke qua tang doanh nghiep"
+          alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -105,7 +105,7 @@ function DesignGift() {
 
         <img
           src={agribank.src}
-          alt="thiet ke qua tang doanh nghiep"
+          alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -119,7 +119,7 @@ function DesignGift() {
 
         <img
           src={vietcombank.src}
-          alt="thiet ke qua tang doanh nghiep"
+          alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -133,7 +133,7 @@ function DesignGift() {
 
         <img
           src={dragongold.src}
-          alt="thiet ke xe dieu hanh mo hinh"
+         alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 
@@ -143,22 +143,22 @@ function DesignGift() {
         <div className="flex flex-col items-center mt-6 space-y-10">
           <img
             src={binhgom.src}
-            alt="thiet ke xe dieu hanh mo hinh"
+           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={tranhthuyendon.src}
-            alt="thiet ke xe dieu hanh mo hinh"
+           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={teapot.src}
-            alt="thiet ke xe dieu hanh mo hinh"
+           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
           <img
             src={ngua.src}
-            alt="thiet ke xe dieu hanh mo hinh"
+           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
         </div>

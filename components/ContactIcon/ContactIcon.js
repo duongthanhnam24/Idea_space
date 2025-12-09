@@ -1,8 +1,8 @@
 
-import { href } from "react-router-dom";
-import MessengerIcon from "../../assests/images/messenger_icon-removebg-preview.png";
-import PhoneIcon from "../../assests/images/phone_icon-removebg-preview.png";
-import ZaloIcon from "../../assests/images/zalo_icon-removebg-preview.png";
+'use client';
+import MessengerIcon from "../../public/assets/images/messenger_icon-removebg-preview.png";
+import PhoneIcon from "../../public/assets/images/phone_icon-removebg-preview.png";
+import ZaloIcon from "../../public/assets/images/zalo_icon-removebg-preview.png";
 import { useEffect, useState } from "react";
 export default function FloatingContactButtons() {
   const [Index, setIndex] = useState(0);
@@ -47,7 +47,7 @@ export default function FloatingContactButtons() {
           >
             <img
               key={Index}
-              src={images[Index].image}
+              src={images[Index].image.src}
               alt="icon"
               className="w-[25px] h-[25px] object-contain animate-jump-in animate-once animate-ease-in animate-duration-800"
             />

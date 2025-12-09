@@ -4,8 +4,8 @@ import logo from "../public/assets/images/logo.jpg"
 import localFont from "next/font/local";
 import "./globals.css";
 export const metadata = {
-  title: "Trang chủ - CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG",
-  description: "CÔNG TY THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
+  title: "Không Gian Ý Tưởng",
+  description: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
   keywords: [
         "Nội Thất",
         "Sân Khấu Sự Kiện",
@@ -23,8 +23,8 @@ export const metadata = {
         "Công Ty Thi Công",
     ],
   openGraph: {
-    title: "Trang chủ CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG",
-    description: "CÔNG TY THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
+    title: "Không Gian Ý Tưởng",
+    description: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
     images: [logo],
   },
 };
@@ -40,8 +40,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body
-      >
+      <body>
         {children}
       </body>
     </html>

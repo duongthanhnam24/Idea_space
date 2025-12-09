@@ -38,7 +38,7 @@ export default function Projects() {
           <RiArrowRightSLine />
           <p>Dự Án</p>
         </div>
-        <div className="flex items-center space-x-2 ">
+        <div className=" flex items-center space-x-2 ">
           <label className="flex items-center space-x-2" htmlFor="type"><IoFilter /> <span>Bộ Lọc</span></label>
           <select name="type" id="type" onChange={(e) => {
             setSelected(e.target.value)
@@ -56,6 +56,7 @@ export default function Projects() {
           </select>
         </div>
       </div>
+      <h1 className="md:px-[80px] lg:mx-[200px] xl:mx-[390px] text-2xl">Tổng Hợp Dự Án Của <strong>Không Gian Ý Tưởng</strong></h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4 sm:px-10 md:px-[30px] mt-[40px] min-h-[900px]">
         {ProjectsPagination.map((item) => (
           <Link

@@ -31,14 +31,14 @@ export function EffectCard() {
             grabCursor={true}
 
         >
-            <SwiperSlide><img src={xuongmay1.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay2.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay3.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay4.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay5.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay6.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay7.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay8.src} className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay1.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay2.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay3.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay4.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay5.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay6.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay7.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><img src={xuongmay8.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
 
         </SlideLayout>
     )

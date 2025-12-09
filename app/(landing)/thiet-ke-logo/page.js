@@ -28,7 +28,7 @@ function DesignLogo() {
 
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-[20px] sm:text-[22px] font-medium text-center md:text-left">
-          THIẾT KẾ LOGO - BỘ NHẬN DIỆN THƯƠNG HIỆU
+          THIẾT KẾ LOGO - BỘ NHẬN DIỆN THƯƠNG HIỆU <strong className="text-[20px]! sm:text-[22px]! font-medium!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <h2 className="mt-[30px] sm:mt-[40px] text-lg sm:text-xl">
@@ -48,7 +48,7 @@ function DesignLogo() {
 
         <img
           src={thietketlogo.src}
-          alt="Thiet ke logo"
+          alt="Thiết Kế Logo - Không Gian Ý Tưởng"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
         />
 

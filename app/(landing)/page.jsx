@@ -37,7 +37,7 @@ function Home() {
             </div>
             <div>
               <h3 className="mt-6 text-lg font-bold text-center sm:text-xl">
-                QUY TRÌNH LÀM VIỆC
+                QUY TRÌNH LÀM VIỆC CỦA <strong className="text-lg! font-bold! sm:text-xl!">KHÔNG GIAN Ý TƯỞNG</strong>
               </h3>
               <div className="flex items-center justify-center mt-2 line-border"></div>
               <div className="grid grid-cols-1 gap-8 mt-6 md:grid-cols-2 lg:grid-cols-4 sm:gap-12 justify-items-center">
@@ -89,13 +89,13 @@ function Home() {
           <div className=" w-full  relative">
             <div className="w-1/3 bg-[#0f50a8] h-[800px] max-sm:h-[950px]  max-md:h-[1350px] max-lg:h-[1350px]">
               <h3 className="p-5  text-lg font-bold text-right sm:text-xl text-white">
-                DỰ ÁN TIÊU BIỂU
+                DỰ ÁN TIÊU BIỂU CỦA <strong className="text-lg! font-bold! sm:text-xl!">KHÔNG GIAN Ý TƯỞNG</strong>
               </h3>
             </div>
             <div className=" absolute top-20 flex space-x-7 left-64 max-sm:flex-col max-sm:left-5 max-sm:space-x-0 max-sm:space-y-7 max-sm:!mr-4 max-md:flex-col max-md:left-7 max-md:!mr-4 max-md:space-x-0 max-md:space-y-7 max-lg:flex-col max-lg:left-20 max-lg:!mr-4 max-lg:space-x-0 max-lg:space-y-7 max-xl:left-28 max-xl:mr-6 max-2xl:mr-8" >
               <Link href='/du-an'>
                 <div >
-                  <img src={trienlam.src} className="w-[648px] h-[480px] rounded-t-lg max-sm:w-full max-sm:h-[280px] max-md:w-full max-lg:w-full max-xl:w-[520px] max-xl:h-[420px]" />
+                  <img src={trienlam.src} alt="Dự Án Tiêu Biểu Của Không Gian Ý Tưởng" className="w-[648px] h-[480px] rounded-t-lg max-sm:w-full max-sm:h-[280px] max-md:w-full max-lg:w-full max-xl:w-[520px] max-xl:h-[420px]" />
                   <div className="bg-white shadow-md px-4 py-6 rounded-b-lg flex justify-between">
                     <div>
                       <p>
@@ -113,7 +113,7 @@ function Home() {
                 <div className="flex flex-col justify-between space-y-4">
                   <Link href='/du-an'>
                     <div className="relative">
-                      <img src={vinataba.src} className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
+                      <img src={vinataba.src} alt="Dự Án Tiêu Biểu Của Không Gian Ý Tưởng" className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
                       <p className="absolute bottom-4 px-2 text-white font-medium">
                         VINATABA - 40 Năm Tự Hào Di Sản
                       </p>
@@ -121,7 +121,7 @@ function Home() {
                   </Link>
                   <Link href='/du-an'>
                     <div className="relative">
-                      <img src={muongthanh.src} className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
+                      <img src={muongthanh.src} alt="Dự Án Tiêu Biểu Của Không Gian Ý Tưởng" className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
                       <p className="absolute bottom-4 px-2 text-white font-medium">
                         Dự Án Mường Thanh
                       </p>
@@ -131,7 +131,7 @@ function Home() {
                 <div className="flex flex-col justify-between space-y-4">
                   <Link href='/du-an'>
                     <div className="relative">
-                      <img src={PDJ.src} className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
+                      <img src={PDJ.src} alt="Dự Án Tiêu Biểu Của Không Gian Ý Tưởng" className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
                       <p className="absolute bottom-4 px-2 text-white font-medium">
                         Thiết Kế Nội Thất Cho Công Ty Trang Sức PDJ Phương Đông
                       </p>
@@ -139,7 +139,7 @@ function Home() {
                   </Link>
                   <Link href='/du-an'>
                     <div className="relative">
-                      <img src={xedieuhanhgiaiphongmiennam.src} className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
+                      <img src={xedieuhanhgiaiphongmiennam.src} alt="Dự Án Tiêu Biểu Của Không Gian Ý Tưởng" className="w-[300px] h-[275px] rounded-md max-sm:w-[200px] max-sm:h-[180px] max-xl:h-[251px]" />
                       <p className="absolute bottom-4 px-2 text-white font-medium">
                         Xe Diễu Hành Kỷ Niệm 50 Năm Ngày Giải Phóng Miền Nam
                       </p>

@@ -77,6 +77,7 @@ export default function Project() {
                       <div key={index} className="flex flex-col w-full">
                         <img
                           src={img.src}
+                          alt={`${item.name} - ${index}`}
                           className="w-full sm:w-[600px] md:w-[700px] lg:w-[800px] object-cover"
                         />
                         <p className="mt-2 text-sm  sm:text-base">
@@ -92,14 +93,14 @@ export default function Project() {
                 <h3 className="text-[30px] uppercase font-medium py-2">Các Dự Án Liên Quan</h3>
                 <div className="border-b-2 w-[80px] border-[#235eb1]"></div>
                 <div className="mt-4 space-y-3">
-                  {dataFilter.map((itemRelated) => {
+                  {dataFilter.map((itemRelated, index) => {
                     return (
                       <Link
                          href={itemRelated.slug}
                         state={itemRelated}
                         key={itemRelated.name}
                         className="flex  items-center space-x-4 p-4 shadow-lg w-[400px] max-xs:w-full max-sm:w-full max-md:w-full hover:shadow-2xl max-xl:w-full max-2xl:w-full">
-                        <img src={itemRelated.cardImage.src} className="w-[82px] h-[82px] object-cover" />
+                        <img src={itemRelated.cardImage.src} alt={`${dataFilter.name} + ${index}`} className="w-[82px] h-[82px] object-cover" />
                         <p>
                           {itemRelated.name}
                         </p>
