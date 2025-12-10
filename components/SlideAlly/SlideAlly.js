@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 
 import SlideLayout from "../SlideLayout/index";
 import aeon from "../../public/assets/images/aeon-logo.png"
@@ -54,20 +55,20 @@ export default function SlideAlly() {
                     }}
                     modules={[Autoplay, Pagination]}>
 
-                    <SwiperSlide ><img src={aeon.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpay.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={muongthanh.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpay.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
-                    <SwiperSlide><img src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide ><Image width={10000} height={1000} src={aeon.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpay.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={muongthanh.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpay.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={eurowindow.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={gamuda.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
+                    <SwiperSlide><Image width={10000} height={1000} src={vnpt.src} className=' object-contain  w-[100px] h-[100px] max-sm:w-[50px] max-sm:h-[50px]' /></SwiperSlide>
                 </SlideLayout>
             </div>
 }

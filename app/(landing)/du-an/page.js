@@ -7,6 +7,7 @@ import { data } from "../../../data/data";
 import { HiHome } from "react-icons/hi";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { IoFilter } from "react-icons/io5";
+import Image from "next/image";
 
 
 export default function Projects() {
@@ -65,7 +66,7 @@ export default function Projects() {
             key={item.name}
             className="overflow-hidden group"
           >
-            <img
+            <Image width={10000} height={1000}
               className="w-full h-[220px] sm:h-[250px] object-cover rounded-lg transition-all group-hover:scale-105 group-hover:brightness-50 group-hover:cursor-pointer duration-500"
               src={item.cardImage.src}
               alt={item.name}

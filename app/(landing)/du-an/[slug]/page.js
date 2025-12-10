@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useLayoutEffect, useState } from "react";
+import Image from "next/image";
 
 import { usePathname } from 'next/navigation';
 import { data } from "../../../../data/data";
@@ -7,6 +8,7 @@ import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
 import BadgeComponent from "../../../../components/Badge/Badge";
+ 
 export default function Project() {
   const [item, setItem] = useState({});
   const [dataFilter, setDataFilter] = useState([]);
@@ -75,7 +77,7 @@ export default function Project() {
                   {item?.media?.image.map((img, index) => {
                     return (
                       <div key={index} className="flex flex-col w-full">
-                        <img
+                        <Image width={10000} height={1000}
                           src={img.src}
                           alt={`${item.name} - ${index}`}
                           className="w-full sm:w-[600px] md:w-[700px] lg:w-[800px] object-cover"
@@ -100,7 +102,7 @@ export default function Project() {
                         state={itemRelated}
                         key={itemRelated.name}
                         className="flex  items-center space-x-4 p-4 shadow-lg w-[400px] max-xs:w-full max-sm:w-full max-md:w-full hover:shadow-2xl max-xl:w-full max-2xl:w-full">
-                        <img src={itemRelated.cardImage.src} alt={`${dataFilter.name} + ${index}`} className="w-[82px] h-[82px] object-cover" />
+                        <Image width={10000} height={1000} src={itemRelated.cardImage.src} alt={`${dataFilter.name} + ${index}`} className="w-[82px] h-[82px] object-cover" />
                         <p>
                           {itemRelated.name}
                         </p>

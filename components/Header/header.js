@@ -4,6 +4,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import logo from "../../public/assets/images/logo.jpg";
 import Link from "next/link";
+import Image from "next/image";
+
 import {
   Dropdown,
   DropdownItem,
@@ -38,7 +40,7 @@ export function Header() {
       <div className="flex justify-between items-center h-[80px] px-4 sm:px-8 md:px-16 lg:px-[150px] xl:px-[300px] bg-white relative">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <img src={logo.src} alt="logo" className="w-[60px] md:w-[70px]" />
+          <Image width={10000} height={1000} src={logo.src} alt="logo" width={100} height={100}   className="w-[60px] md:w-[70px]" />
         </Link>
 
         {/* Nút menu (mobile) */}

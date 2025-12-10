@@ -4,6 +4,8 @@ import MessengerIcon from "../../public/assets/images/messenger_icon-removebg-pr
 import PhoneIcon from "../../public/assets/images/phone_icon-removebg-preview.png";
 import ZaloIcon from "../../public/assets/images/zalo_icon-removebg-preview.png";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+
 export default function FloatingContactButtons() {
   const [Index, setIndex] = useState(0);
   const message = {
@@ -45,10 +47,12 @@ export default function FloatingContactButtons() {
             rel="noopener noreferrer"
             className="bg-white p-2 rounded-full shadow-md hover:scale-105 transition-transform cursor-pointer"
           >
-            <img
+            <Image width={10000} height={1000}
               key={Index}
               src={images[Index].image.src}
               alt="icon"
+              width={25}
+              height={25}
               className="w-[25px] h-[25px] object-contain animate-jump-in animate-once animate-ease-in animate-duration-800"
             />
           </a>

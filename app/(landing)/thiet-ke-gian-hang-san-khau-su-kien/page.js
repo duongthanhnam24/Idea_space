@@ -12,7 +12,8 @@ import sankhauA80 from "../../../public/assets/images/gian_hang_trien_lam/z69447
 import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
-
+import { stateSchema } from "../../../schema/state";
+import Image from "next/image";
 
 export const metadata = {
   title: "Thiết Kế & Thi Công Gian Hàng – Sân Khấu Sự Kiện",
@@ -24,11 +25,23 @@ export const metadata = {
     "thi công sân khấu sự kiện",
     "dịch vụ thiết kế gian hàng",
     "dịch vụ thi công gian hàng",
-    ]
+    'Không Gian Ý Tưởng',
+    ],
+    openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-gian-hang-san-khau-su-kien",
+    type: "website",
+    title: "Thiết Kế & Thi Công Gian Hàng – Sân Khấu Sự Kiện",
+    description:
+      "Trong mỗi chương trình, hội chợ hay sự kiện, gian hàng và sân khấu không chỉ là nơi trưng bày sản phẩm hay diễn ra hoạt động, mà còn là bộ mặt thể hiện hình ảnh thương hiệu của doanh nghiệp. Một thiết kế ấn tượng, thi công chuyên nghiệp sẽ giúp thu hút ánh nhìn, tạo dấu ấn mạnh mẽ trong lòng khách hàng và đối tác.",
+  },
 };
 function DesignState() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(stateSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/">Trang Chủ</Link>
@@ -70,7 +83,7 @@ function DesignState() {
           </li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={vinataba.src}
           alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
@@ -99,7 +112,7 @@ function DesignState() {
           </li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={bornpink.src}
           alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
@@ -122,7 +135,7 @@ function DesignState() {
           <li>Cam kết đúng tiến độ – đúng ngân sách – đúng yêu cầu.</li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={travelEvent.src}
           alt="Thiết Kế Gian Hàng Sự Kiện"
           className="mt-[40px] w-full md:w-[70%] mx-auto"
@@ -131,32 +144,32 @@ function DesignState() {
         <h2 className="mt-[40px] text-xl">4. Những Dự Án Đã Từng Thực Hiện</h2>
 
         <div className="flex flex-col items-center space-y-10">
-          <img
+          <Image width={10000} height={1000}
             src={Event1.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={sankhauA80.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={Event3.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={esport1.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={esport2.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={esport3.src}
             alt="Thiết Kế Gian Hàng Sự Kiện"
             className="w-full md:w-[70%]"

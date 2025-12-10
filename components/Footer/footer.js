@@ -2,13 +2,15 @@ import logo from "../../public/assets/images/logo-removebg-preview.png";
 import { FaHome } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import Image from "next/image";
+
 export function Footer() {
   return (
     <div>
       <div className="bg-[#262626]  px-6 sm:px-10 md:px-21 py-12 text-white flex flex-col md:flex-row items-start md:items-center justify-between space-y-8 md:space-y-0">
         <div className="space-y-4">
           <div className="flex flex-col space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0">
-            <img src={logo.src} alt="Không Gian Ý Tưởng" className="w-[60px] mx-auto sm:mx-0" />
+            <Image  src={logo.src} width={1000} height={100000}  alt="Không Gian Ý Tưởng"  className="w-[60px] mx-auto sm:mx-0" />
             <p className="text-sm text-left sm:text-base">
               CÔNG TY CỔ PHẦN TRUYỀN THÔNG <strong>KHÔNG GIAN Ý TƯỞNG</strong>
             </p>

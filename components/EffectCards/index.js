@@ -13,6 +13,7 @@ import xuongmay5 from "../../public/assets/images/xuong-may-5.jpg"
 import xuongmay6 from "../../public/assets/images/xuong-may-6.jpg"
 import xuongmay7 from "../../public/assets/images/xuong-may-7.jpg"
 import xuongmay8 from "../../public/assets/images/xuong-may-8.jpg"
+import Image from "next/image";
 
 export function EffectCard() {
     return (
@@ -31,14 +32,14 @@ export function EffectCard() {
             grabCursor={true}
 
         >
-            <SwiperSlide><img src={xuongmay1.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay2.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay3.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay4.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay5.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay6.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay7.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
-            <SwiperSlide><img src={xuongmay8.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" ></img></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay1.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay2.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay3.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay4.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay5.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay6.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay7.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
+            <SwiperSlide><Image width={10000} height={1000} src={xuongmay8.src} alt='Xưởng Không Gian Ý Tưởng' className="w-[500px] h-auto object-cover max-sm:w-[300px]" /></SwiperSlide>
 
         </SlideLayout>
     )

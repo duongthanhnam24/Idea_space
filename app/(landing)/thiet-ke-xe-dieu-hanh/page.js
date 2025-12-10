@@ -9,21 +9,35 @@ import xedieuhanh7 from "../../../public/assets/images/products/xedieuhanh7.png"
 import xedieuhanh8 from "../../../public/assets/images/products/xedieuhanh8.png";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { carSchema } from "../../../schema/car";
+import Image from "next/image";
 
 export const metadata = {
   title: "Thiết Kế & Sản Xuất Xe Diễu Hành Mô Hình - Không Gian Ý Tưởng",
   description: "Với đội ngũ thiết kế sáng tạo và kinh nghiệm trong lĩnh vực thi công, chúng tôi mang đến giải pháp trọn gói từ ý tưởng – thiết kế – sản xuất – trang trí – vận hành, giúp khách hàng tạo nên những mô hình xe diễu hành độc đáo và thu hút mọi ánh nhìn.",
-    keywords: [
-       'Thiết Kế Xe Diễu Hành Mô Hình',
-       'Sản Xuất Xe Diễu Hành Mô Hình',
-       'Xe Diễu Hành Sáng Tạo',
-       'Mô Hình Xe Diễu Hành',
-       'Dịch Vụ Xe Diễu Hành',
-    ]
+  keywords: [
+    'Thiết Kế Xe Diễu Hành Mô Hình',
+    'Sản Xuất Xe Diễu Hành Mô Hình',
+    'Xe Diễu Hành Sáng Tạo',
+    'Mô Hình Xe Diễu Hành',
+    'Dịch Vụ Xe Diễu Hành',
+    'Không Gian Ý Tưởng',
+  ],
+  openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-xe-dieu-hanh",
+    type: "website",
+    title: "Thiết Kế & Sản Xuất Xe Diễu Hành Mô Hình - Không Gian Ý Tưởng",
+    description:
+      "Với đội ngũ thiết kế sáng tạo và kinh nghiệm trong lĩnh vực thi công, chúng tôi mang đến giải pháp trọn gói từ ý tưởng – thiết kế – sản xuất – trang trí – vận hành, giúp khách hàng tạo nên những mô hình xe diễu hành độc đáo và thu hút mọi ánh nhìn.",
+  },
 };
 function DesignCar() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(carSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/" className="hover:text-blue-600">
@@ -57,7 +71,7 @@ function DesignCar() {
             sản xuất – trang trí – vận hành, giúp khách hàng tạo nên những mô
             hình xe diễu hành độc đáo và thu hút mọi ánh nhìn.
           </p>
-          <img
+          <Image width={10000} height={1000}
             src={xedieuhanh1.src}
             alt="thiết kế xe diễu hành mô hình"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -95,7 +109,7 @@ function DesignCar() {
               kỹ thuật và thẩm mỹ.
             </li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={xedieuhanh2.src}
             alt="quy trình sản xuất xe diễu hành"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -127,7 +141,7 @@ function DesignCar() {
               Giá thành hợp lý: Tối ưu chi phí, phù hợp với từng quy mô dự án.
             </li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={xedieuhanh3.src}
             alt="ưu điểm xe diễu hành"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -146,7 +160,7 @@ function DesignCar() {
             <li>Sự kiện cộng đồng, hội chợ, triển lãm ngoài trời</li>
             <li>Truyền thông – quảng cáo sáng tạo theo chủ đề</li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={xedieuhanh4.src}
             alt="ứng dụng xe diễu hành"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -159,7 +173,7 @@ function DesignCar() {
           </h2>
           {[xedieuhanh5, xedieuhanh6, xedieuhanh7, xedieuhanh8].map(
             (img, i) => (
-              <img
+              <Image width={10000} height={1000}
                 key={i}
                 src={img.src}
                 alt={`xe diễu hành ${i + 1}`}

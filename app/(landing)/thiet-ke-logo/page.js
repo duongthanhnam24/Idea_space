@@ -2,7 +2,8 @@ import { HiHome } from "react-icons/hi";
 import thietketlogo from "../../../public/assets/images/thiet-ke-logo.jpg";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
-
+import { logoSchema } from "../../../schema/logo";
+import Image from "next/image";
 
 export const metadata = {
   title: "Thiết Kế Logo - Bộ Nhận Diện Thương Hiệu - Không Gian Ý Tưởng",
@@ -14,11 +15,23 @@ export const metadata = {
         "Logo chữ",
         "Logo kết hợp",
         'Idea Space Logo',
-    ]
+        'Không Gian Ý Tưởng',
+    ],
+    openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-logo",
+    type: "website",
+    title: "Thiết Kế Logo - Bộ Nhận Diện Thương Hiệu - Không Gian Ý Tưởng",
+    description:
+      "Trong thời đại kinh doanh hiện nay, khi hàng ngàn thương hiệu ra đời mỗi ngày, logo và bộ nhận diện thương hiệu chính là “bộ mặt” giúp doanh nghiệp khác biệt – chuyên nghiệp – ghi dấu trong tâm trí khách hàng. Một logo đẹp không chỉ là hình ảnh minh họa, mà là biểu tượng thể hiện giá trị cốt lõi, phong cách và tầm nhìn của doanh nghiệp. Bên cạnh đó, bộ nhận diện thương hiệu giúp đồng bộ hình ảnh trên mọi phương tiện truyền thông, từ danh thiếp, hồ sơ năng lực, đồng phục nhân viên cho đến website và biển quảng cáo.",
+  },
 };
 function DesignLogo() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(logoSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  h-10! my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/">Trang Chủ</Link>
@@ -46,10 +59,12 @@ function DesignLogo() {
           nhân viên cho đến website và biển quảng cáo.
         </p>
 
-        <img
+        <Image width={10000} height={1000}
           src={thietketlogo.src}
           alt="Thiết Kế Logo - Không Gian Ý Tưởng"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
+           
+         
         />
 
         <h2 className="mt-[30px] sm:mt-[40px] text-lg sm:text-xl">

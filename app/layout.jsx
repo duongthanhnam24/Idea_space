@@ -1,9 +1,41 @@
 
-import { Geist, Geist_Mono } from "next/font/google";
+
 import logo from "../public/assets/images/logo.jpg"
 import localFont from "next/font/local";
 import "./globals.css";
+import { organizationSchema } from "../schema/organization";
 export const metadata = {
+   metadataBase: new URL("https://khonggianytuong.com.vn"),
+openGraph: {
+    siteName: "Không Gian Ý Tưởng",
+    type: "website",
+    locale: "vi_VN",
+    title: "Không Gian Ý Tưởng",
+    description: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
+    images: [logo],
+  },
+   robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index, follow"
+  },
+  alternates: {
+    types: {
+      "application/rss+xml": "https://khonggianytuong.com.vn/rss.xml"
+    }
+  },
+  verification: {
+    google: "EygZt3okPxu4doeoxOEO41KntFBLBEj3srhPhGwzYa8",
+    yandex: ["28fe081a30b81754"],
+    other: {
+      "msvalidate.01": ["https://khonggianytuong.com.vn"],
+    }
+  },
+  
+  applicationName: "Không Gian Ý Tưởng",
   title: "Không Gian Ý Tưởng",
   description: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
   keywords: [
@@ -22,11 +54,6 @@ export const metadata = {
         "Công Ty Thiết Kế",
         "Công Ty Thi Công",
     ],
-  openGraph: {
-    title: "Không Gian Ý Tưởng",
-    description: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG KHÔNG GIAN Ý TƯỞNG THIẾT KẾ VÀ THI CÔNG QUẢNG CÁO UY TÍN VÀ CHUYÊN NGHIỆP",
-    images: [logo],
-  },
 };
 const rosellinda = localFont({
   src: "../public/assets/fonts/SVN-Rosellinda Alyamore.otf",
@@ -41,7 +68,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
         {children}
+        
       </body>
     </html>
   );

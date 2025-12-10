@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 import Input from "../../../components/Input";
 import { toast } from "react-toastify";
 
+import Image from "next/image";
 
 function Contact() {
   const form = useRef();

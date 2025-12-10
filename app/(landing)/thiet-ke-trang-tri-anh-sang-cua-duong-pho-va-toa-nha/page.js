@@ -9,7 +9,8 @@ import ledduongpho from "../../../public/assets/images/products/ledduongpho3.jpg
 import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
-
+import { buildingSchema } from "../../../schema/building";
+import Image from "next/image";
 
 export const metadata = {
   title: "Thiết Kế & Trang Trí Ánh Sáng Của Đường Phố Và Tòa Nhà",
@@ -25,11 +26,23 @@ export const metadata = {
     'Chiếu sáng cảnh quan đô thị',
     'Trang Trí trung tâm thương mại',
     'Trang Trí khu vui chơi',
-    ]
+    'Không Gian Ý Tưởng',
+    ],
+     openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-trang-tri-anh-sang-cua-duong-pho-va-toa-nha",
+    type: "website",
+    title: "Thiết Kế & Trang Trí Ánh Sáng Của Đường Phố Và Tòa Nhà",
+    description:
+      "Ánh sáng không chỉ giúp chiếu sáng không gian mà còn là ngôn ngữ của cảm xúc và thẩm mỹ. Trong các sự kiện, dịp lễ hội, hay chiến dịch quảng bá thương hiệu, hệ thống chiếu sáng nghệ thuật đóng vai trò quan trọng trong việc tạo nên bầu không khí ấn tượng, thu hút ánh nhìn và lan tỏa năng lượng tích cực.Với kinh nghiệm trong thiết kế và trang trí ánh sáng nghệ thuật cho đường phố, tòa nhà, và không gian công cộng, chúng tôi mang đến giải pháp toàn diện từ ý tưởng – thiết kế – thi công – vận hành, giúp mỗi công trình tỏa sáng theo phong cách riêng.",
+  },
 };
 function DesignBuilding() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildingSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/" className="hover:text-blue-600">
@@ -66,7 +79,7 @@ function DesignBuilding() {
             pháp toàn diện từ ý tưởng – thiết kế – thi công – vận hành, giúp mỗi
             công trình tỏa sáng theo phong cách riêng.
           </p>
-          <img
+          <Image width={10000} height={1000}
             src={beverly4.src}
             alt="thiết kế trang trí ánh sáng"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -105,7 +118,7 @@ function DesignBuilding() {
               công cộng.
             </li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={movenpick3.src}
             alt="dịch vụ thiết kế ánh sáng"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -134,7 +147,7 @@ function DesignBuilding() {
               hiệu quả nghệ thuật.
             </li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={muongthanh.src}
             alt="quy trình thiết kế ánh sáng"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -155,7 +168,7 @@ function DesignBuilding() {
             <li>Tiến độ nhanh, đảm bảo an toàn tuyệt đối.</li>
             <li>Giá thành hợp lý, giải pháp tối ưu chi phí.</li>
           </ul>
-          <img
+          <Image width={10000} height={1000}
             src={kimbang.src}
             alt="ưu điểm thiết kế ánh sáng"
             className="mt-8 w-full md:w-4/5 lg:w-[70%] mx-auto rounded-lg"
@@ -167,7 +180,7 @@ function DesignBuilding() {
             5. Những Tòa Nhà & Công Trình Đã Từng Trang Trí
           </h2>
           {[kimbang2, kimbang3, yenlac, ledduongpho].map((img, i) => (
-            <img
+            <Image width={10000} height={1000}
               key={i}
               src={img.src}
               alt={`công trình ${i + 1}`}

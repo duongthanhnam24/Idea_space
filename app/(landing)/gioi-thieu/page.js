@@ -13,6 +13,7 @@ import may2 from "../../../public/assets/images/may-2.jpg"
 import may3 from "../../../public/assets/images/may-3.jpg"
 import may4 from "../../../public/assets/images/may-4.jpg"
 import { ContactUs } from "../../../components/FormMail";
+import Image from "next/image";
 
 
 
@@ -31,14 +32,21 @@ export const metadata = {
         'Thi Công Quảng Cáo',
         'Công Ty Quảng Cáo',
         
-    ]
+    ],
+    openGraph: {
+    url: "https://khonggianytuong.com.vn/gioi-thieu",
+    type: "website",
+    title: "Giới Thiệu - Không Gian Ý Tưởng",
+    description:
+      "Không Gian Ý Tưởng Có Đội Ngũ Họa Sĩ Thiết Kế, Kiến Trúc Sư, Kỹ Sư, Cán Bộ Kỹ Thuật Và Đội Ngũ Công Nhân Lành Nghề Với Nhiều Năm Kinh Nghiệm Trong Lĩnh Vực Thiết Kế - Sản Xuất - Thi Công Quảng Cáo, Kiến Trúc, Nội Thất.",
+  },
 };
 
 function Introduce() {
     return (
         <div>
             <div className="relative text-white w-full">
-                <img src={imgae.src} alt="Không Gian Ý Tưởng" className="w-full object-cover h-[400px] brightness-50" />
+                <Image  width={10000} height={10000} src={imgae.src} alt="Không Gian Ý Tưởng" className="w-full object-cover h-[400px] brightness-50" />
                 <div className="max-sm:ml-10 max-sm:mr-0 max-md:mx-10  absolute bottom-12 mx-[287px] space-y-2 max-xl:mx-10 max-2xl:mx-[100px] max-3xl:mx-[100px]">
                     <h2 className="text-4xl font-bold border-b-2 border-[#0f50a8] ">Giới Thiệu Về <strong className="text-4xl! font-bold!">Không Gian Ý Tưởng</strong></h2>
                     <div className="flex space-x-3 items-center"><Link href='/'>Trang Chủ</Link><MdDoubleArrow /> <Link href='/gioi-thieu'>Giới Thiệu</Link> </div>
@@ -61,7 +69,7 @@ function Introduce() {
                         </p>
                     </div>
                    <div className="flex justify-center">
-                     <img src={company.src} alt="Không Gian Ý Tưởng" className="w-[500px] h-[600px] max-sm:w-full max-sm:mt-6 max-sm:ml-0! max-sm:h-[400px] max-xl:w-[400px]  max-xl:h-[500px] " />
+                     <Image width={10000} height={1000} src={company.src} alt="Không Gian Ý Tưởng" className="w-[500px] h-[600px] max-sm:w-full max-sm:mt-6 max-sm:ml-0! max-sm:h-[400px] max-xl:w-[400px]  max-xl:h-[500px] " />
                    </div>
                 </div>
                 <div className="mt-24">
@@ -143,14 +151,14 @@ function Introduce() {
                         </div>
                         <div className="col-span-2 row-span-1">
                             <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6  max-lg:flex-col max-lg:items-center max-lg:space-y-6">
-                                <img src={may1.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
-                                <img src={may2.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <Image width={10000} height={1000} src={may1.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <Image width={10000} height={1000} src={may2.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
                         </div> 
                         <div className="col-span-2 row-span-1">
                             <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-6 max-md:flex-col max-md:items-center max-md:space-y-6 max-lg:flex-col max-lg:items-center max-lg:space-y-6">
-                                <img src={may3.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
-                                <img src={may4.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <Image width={10000} height={1000} src={may3.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
+                                <Image width={10000} height={1000} src={may4.src} alt="Máy Móc Không Gian Ý Tưởng" className="w-[310px] h-[218px] max-md:w-[500px] max-md:h-[400px] max-lg:w-[700px] max-lg:h-[500px] max-2xl:w-[200px] max-2xl:h-[200px]" />
                             </div>
                         </div>
                     </div>
@@ -176,7 +184,7 @@ function Introduce() {
                             
                             <div className="md:col-span-2 lg:col-span-1 row-span-2 bg-white rounded-xl shadow overflow-hidden relative -ml-[32rem] z-20">
                                 <div className="relative ">
-                                    <img
+                                    <Image width={10000} height={1000}
                                         src={BAMUDA}
                                         alt="Toa nha bamuda"
                                         className="w-full h-[400px] object-cover transition-transform duration-500 "
@@ -204,7 +212,7 @@ function Introduce() {
                             ].map((img, i) => (
                                 <div key={i} className="bg-white rounded-xl  ">
                                     <div className="relative ">
-                                        <img
+                                        <Image width={10000} height={1000}
                                             src={img}
                                             alt="Project"
                                             className="w-full  object-cover rounded-xl h-[254px]"

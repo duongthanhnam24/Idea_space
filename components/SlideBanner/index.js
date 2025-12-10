@@ -3,6 +3,7 @@ import { SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 import image1 from "../../public/assets/images/banner-tb-1.jpg";
 import image2 from "../../public/assets/images/slide1.jpg";
@@ -30,7 +31,7 @@ export function SlideBanner() {
     >
       {[image1, image2, image3, image4, image5].map((img, index) => (
         <SwiperSlide key={index}>
-          <img
+          <Image width={10000} height={1000}
             src={img.src}
             alt={`Không Gian Ý Tưởng-${index}`}
             className="object-cover w-full "

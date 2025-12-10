@@ -9,6 +9,9 @@ import noithat8 from "../../../public/assets/images/thi_cong_noi_that_gian_hang/
 import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { noithatSchema } from "../../../schema/noithat";
+import Image from "next/image";
+
 export const metadata = {
   title: "Thiết Kế & Thi Công Nội Thất - Không Gian Ý Tưởng",
   description: " thiết kế nội thất đã trở thành yếu tố quan trọng giúp mang lại sự hài hòa giữa công năng và nghệ thuật, tạo nên môi trường sống tiện nghi, đẹp mắt và truyền cảm hứng mỗi ngày. Với đội ngũ kiến trúc sư, nhà thiết kế giàu kinh nghiệm, chúng tôi mang đến giải pháp thiết kế nội thất trọn gói, từ ý tưởng sáng tạo đến bản vẽ thi công chi tiết, giúp bạn hiện thực hóa không gian mơ ước một cách tối ưu nhất.",
@@ -22,11 +25,22 @@ export const metadata = {
         "Không Gian Ý Tưởng",
         'Thiết kế nội thất nhà hàng',
         'Thiết kế nội thất khách sạn'
-    ]
+    ],
+     openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-thi-cong-noi-that",
+    type: "website",
+    title: "Thiết Kế & Thi Công Nội Thất - Không Gian Ý Tưởng",
+    description:
+      "thiết kế nội thất đã trở thành yếu tố quan trọng giúp mang lại sự hài hòa giữa công năng và nghệ thuật, tạo nên môi trường sống tiện nghi, đẹp mắt và truyền cảm hứng mỗi ngày. Với đội ngũ kiến trúc sư, nhà thiết kế giàu kinh nghiệm, chúng tôi mang đến giải pháp thiết kế nội thất trọn gói, từ ý tưởng sáng tạo đến bản vẽ thi công chi tiết, giúp bạn hiện thực hóa không gian mơ ước một cách tối ưu nhất.",
+  },
 };
 function DesignInterior() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(noithatSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/">Trang Chủ</Link>
@@ -60,7 +74,7 @@ function DesignInterior() {
           cách tối ưu nhất.
         </p>
 
-        <img
+        <Image width={10000} height={1000}
           src={noithat1.src}
           alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -125,7 +139,7 @@ function DesignInterior() {
           </li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={noithat2.src}
           alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -157,7 +171,7 @@ function DesignInterior() {
           </li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={noithat3.src}
           alt="Thiết Kế & Thi Công Nội Thất"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -167,27 +181,27 @@ function DesignInterior() {
           4. Những Dự Án Đã Từng Thực Hiện
         </h2>
         <div className="flex flex-col items-center mt-6 space-y-10">
-          <img
+          <Image width={10000} height={1000}
             src={noithat4.src}
             alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={noithat5.src}
             alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={noithat6.src}
             alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={noithat7.src}
             alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={noithat8.src}
             alt='Các Dự Án Thiết Kế & Thi Công Nội Thất'
             className="w-full sm:w-[80%] lg:w-[70%]"

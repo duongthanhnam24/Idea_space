@@ -9,6 +9,9 @@ import ngua from "../../../public/assets/images/Qua_tang/z6465425160238_52e65484
 import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { giftSchema } from "../../../schema/gift";
+import Image from "next/image";
+
 export const metadata = {
   title: "Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp - Không Gian Ý Tưởng",
   description: "Trong kinh doanh, một món quà tặng không chỉ là vật phẩm, mà còn là cầu nối cảm xúc giữa thương hiệu và khách hàng. Quà tặng doanh nghiệp là cách thể hiện sự tri ân, lời cảm ơn chân thành, đồng thời là công cụ marketing tinh tế giúp thương hiệu lan tỏa mạnh mẽ. Với đội ngũ sáng tạo và giàu kinh nghiệm, chúng tôi chuyên thiết kế – sản xuất – cung cấp quà tặng doanh nghiệp cao cấp, giúp doanh nghiệp thể hiện phong cách riêng và ghi dấu ấn chuyên nghiệp trong lòng đối tác, khách hàng và nhân viên.",
@@ -19,12 +22,24 @@ export const metadata = {
         "Thiết Kế Qùa Tặng",
         "Đồ dùng văn phòng",
         'Quà tặng cao cấp',
-        'Quà tặng sáng tạo'
-    ]
+        'Quà tặng sáng tạo',
+        'không gian ý tưởng'
+    ],
+    openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-cung-cap-qua-tang",
+    type: "website",
+    title: "Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp - Không Gian Ý Tưởng",
+    description:
+      "Trong kinh doanh, một món quà tặng không chỉ là vật phẩm, mà còn là cầu nối cảm xúc giữa thương hiệu và khách hàng. Quà tặng doanh nghiệp là cách thể hiện sự tri ân, lời cảm ơn chân thành, đồng thời là công cụ marketing tinh tế giúp thương hiệu lan tỏa mạnh mẽ. Với đội ngũ sáng tạo và giàu kinh nghiệm, chúng tôi chuyên thiết kế – sản xuất – cung cấp quà tặng doanh nghiệp cao cấp, giúp doanh nghiệp thể hiện phong cách riêng và ghi dấu ấn chuyên nghiệp trong lòng đối tác, khách hàng và nhân viên.",
+  },
 };
 function DesignGift() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(giftSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/">Trang Chủ</Link>
@@ -34,7 +49,7 @@ function DesignGift() {
 
       <div className="max-w-[1200px] mx-auto px-4 mb-[40px]">
         <h1 className="text-xl font-medium sm:text-2xl">
-          THIẾT KẾ & CUNG CẤP QUÀ TẶNG DOANH NGHIỆP <strong className="text-[20px]! sm:text-[22px]! font-medium!">KHÔNG GIAN Ý TƯỞNG</strong>
+          THIẾT KẾ & CUNG CẤP QUÀ TẶNG DOANH NGHIỆP <strong className="  sm:text-2xl! font-medium!">KHÔNG GIAN Ý TƯỞNG</strong>
         </h1>
 
         <h2 className="mt-10 text-lg sm:text-xl">
@@ -51,7 +66,7 @@ function DesignGift() {
           hàng và nhân viên.
         </p>
 
-        <img
+        <Image width={10000} height={1000}
           src={mbs.src}
           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -103,7 +118,7 @@ function DesignGift() {
           </li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={agribank.src}
           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -117,7 +132,7 @@ function DesignGift() {
           <li>Giao hàng đúng tiến độ – tận nơi</li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={vietcombank.src}
           alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -131,7 +146,7 @@ function DesignGift() {
           <li>Dịch vụ hậu mãi & hỗ trợ nhanh chóng</li>
         </ul>
 
-        <img
+        <Image width={10000} height={1000}
           src={dragongold.src}
          alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
           className="mt-10 w-full sm:w-[80%] lg:w-[70%] mx-auto"
@@ -141,22 +156,22 @@ function DesignGift() {
           5. Những Món Quà Đặc Biệt Đã Từng Thiết Kế
         </h2>
         <div className="flex flex-col items-center mt-6 space-y-10">
-          <img
+          <Image width={10000} height={1000}
             src={binhgom.src}
            alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={tranhthuyendon.src}
            alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={teapot.src}
            alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"
           />
-          <img
+          <Image width={10000} height={1000}
             src={ngua.src}
            alt="Thiết Kế & Cung Cấp Quà Tặng Doanh Nghiệp"
             className="w-full sm:w-[80%] lg:w-[70%]"

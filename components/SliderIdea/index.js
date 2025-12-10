@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import { IoIosArrowDropright } from "react-icons/io";
 import SlideLayout from "../SlideLayout";
 import { Autoplay, Pagination } from "swiper/modules";
+import Image from "next/image";
+
 import Link from "next/link";
 
 export function SlideIdea({ data }) {
@@ -49,7 +51,7 @@ export function SlideIdea({ data }) {
           <Link  href={item.slug} >
             <div className="p-3">
               <div className="w-full h-[200px] overflow-hidden rounded-xl">
-                <img
+                <Image width={10000} height={1000}
                   src={item.cardImage.src}
                   alt={item.name}
                   className="object-cover w-full h-full transition-all duration-300 cursor-pointer hover:scale-110 hover:brightness-50"

@@ -10,6 +10,8 @@ import bienhieu9 from "../../../public/assets/images/Bien_hieu_cua_hang/23334335
 import { HiHome } from "react-icons/hi";
 import Link from "next/link";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { quangcaoSchema } from "../../../schema/bienquangcao";
+import Image from "next/image";
 
 
 export const metadata = {
@@ -24,12 +26,23 @@ export const metadata = {
     'Thiết Kế Biển hiệu quảng cáo',
     'Thiết Kế Biển công trình',
     'Thiết Kế Biển tòa nhà',
-    
-    ]
+    'Không Gian Ý Tưởng',
+    ],
+     openGraph: {
+    url: "https://khonggianytuong.com.vn/thiet-ke-thi-cong-bieu-tuong-kien-truc-cong-chao-bien-quang-cao",
+    type: "website",
+    title: "Thiết Kế & Thi Công Biểu Tượng Kiến Trúc, Cổng Chào, Biển Hiệu Quảng Cáo",
+    description:
+      "Trong lĩnh vực quảng cáo – truyền thông thương hiệu, các công trình biểu tượng kiến trúc, cổng chào, và biển hiệu quy mô lớn đóng vai trò quan trọng trong việc tạo ấn tượng thị giác mạnh mẽ và khẳng định vị thế thương hiệu. Với đội ngũ kiến trúc sư, kỹ sư và nhà thiết kế giàu kinh nghiệm, chúng tôi chuyên thiết kế – thi công trọn gói các công trình biểu tượng quảng cáo từ ý tưởng đến hiện thực, đảm bảo độc đáo – bền vững – an toàn – đạt chuẩn kỹ thuật.",
+  },
 };
 function DesignSymbolPromotion() {
   return (
     <>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(quangcaoSchema) }}
+      />
       <div className="flex flex-wrap items-center space-x-2 max-w-[1200px] mx-auto px-4  !h-[40px] my-6 text-sm sm:text-base">
         <HiHome />
         <Link href="/">Trang Chủ</Link>
@@ -73,7 +86,7 @@ function DesignSymbolPromotion() {
           an toàn – đạt chuẩn kỹ thuật.
         </p>
 
-        <img src={bienhieu1.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
+        <Image width={10000} height={1000} src={bienhieu1.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
 
         <h2 className="mt-[40px] text-xl">2. Các Hạng Mục Thi Công Chính</h2>
 
@@ -136,7 +149,7 @@ function DesignSymbolPromotion() {
           <li>Sử dụng vật liệu bền – chống thời tiết – bảo hành dài hạn.</li>
         </ul>
 
-        <img src={bienhieu2.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
+        <Image width={10000} height={1000} src={bienhieu2.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="mt-[40px] w-full md:w-[70%] mx-auto" />
 
         {/* Quy trình */}
         <h2 className="mt-[40px] text-xl">3. Quy Trình Thiết Kế & Thi Công</h2>
@@ -148,18 +161,18 @@ function DesignSymbolPromotion() {
           <li>Bảo hành – bảo trì định kỳ</li>
         </ul>
 
-        <img src={bienhieu3.src} className="mt-[40px] w-full md:w-[70%] mx-auto" />
+        <Image width={10000} height={1000} src={bienhieu3.src} className="mt-[40px] w-full md:w-[70%] mx-auto" />
 
         {/* Dự án */}
         <h2 className="mt-[40px] text-xl">4. Những Dự Án Đã Từng Thực Hiện</h2>
 
         <div className="flex flex-col items-center space-y-10">
-          <img src={bienhieu4.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
-          <img src={bienhieu5.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
-          <img src={bienhieu6.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
-          <img src={bienhieu7.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
-          <img src={bienhieu8.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
-          <img src={bienhieu9.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu4.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu5.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu6.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu7.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu8.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
+          <Image width={10000} height={1000} src={bienhieu9.src} alt="Thiết Kế & Thi Công Biển Hiệu" className="w-full md:w-[70%]" />
         </div>
       </div>
     </>
