@@ -40,7 +40,7 @@ export function Header() {
       <div className="flex justify-between items-center h-[80px] px-4 sm:px-8 md:px-16 lg:px-[150px] xl:px-[300px] bg-white relative">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image width={10000} height={1000} src={logo.src} alt="logo" width={100} height={100}   className="w-[60px] md:w-[70px]" />
+          <Image width={10000} height={1000} src={logo.src} alt="logo"   className="w-[60px] md:w-[70px]" />
         </Link>
 
         {/* Nút menu (mobile) */}

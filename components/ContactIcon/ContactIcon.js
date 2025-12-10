@@ -51,8 +51,7 @@ export default function FloatingContactButtons() {
               key={Index}
               src={images[Index].image.src}
               alt="icon"
-              width={25}
-              height={25}
+             
               className="w-[25px] h-[25px] object-contain animate-jump-in animate-once animate-ease-in animate-duration-800"
             />
           </a>
